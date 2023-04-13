@@ -15,7 +15,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence:
             '活動電位の発生について、脱分極してから静止電位に戻るまでの過程を説明しなさい。',
-          answerImg: [actionPotential],
+          answerImg: [],
           answer:
             '脱分極を誘導した電位依存性Na⁺チャネルがすぐに不活化され、電位依存性（遅延整流性）K⁺チャネルが開き、再分極し静止電位付近に戻る。',
           commentary: '',
