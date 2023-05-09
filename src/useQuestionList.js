@@ -8,23 +8,28 @@ export const useQuestionList = () => {
   const [questionList, setQuestionList] = useState([
     // ここに問題のリストを記述(選択式の場合は[0]に正解択をいれた配列をつくる)
     {
-      groupTag: '2021本試',
+      groupTag: '授業中',
       groupContents: [
         {
-          detailInfo: '',
+          detailInfo: '4/26',
           questionImg: [],
-          questionSentence:
-            '活動電位の発生について、脱分極してから静止電位に戻るまでの過程を説明しなさい。',
+          questionSentence: '抗菌薬と作用機序の組み合わせで適切なものはどれか',
           answerImg: [],
-          answer:
-            '脱分極を誘導した電位依存性Na⁺チャネルがすぐに不活化され、電位依存性（遅延整流性）K⁺チャネルが開き、再分極し静止電位付近に戻る。',
-          commentary: '',
+          choices: [
+            'シプロフロキサシン - DNA合成阻害',
+            'アンピシリン - タンパク質合成阻害',
+            'ミノサイクリン - 細胞膜合成阻害',
+            'アミカシン - 細胞壁合成阻害',
+          ],
+          answer: 'シプロフロキサシン - DNA合成阻害',
+          commentary:
+            'シプロフロキサシンはニューキノロン系薬で、拡散合成を阻害する。アンピシリンはβラクタム系薬で、細胞壁合成を阻害する。ミノサイクリンはテトラサイクリン系薬で、タンパク合成を阻害する。アミカシンはアミノグリコシド系で、タンパク合成を阻害する。',
         },
         // {
         //   detailInfo: '',
         //   questionImg: [],
         //   questionSentence:
-        //     '',
+        //     '85歳男性。入院前は老人ホームに入所していた・',
         //   answerImg: [],
         //   answer: '',
         //   commentary: '',
