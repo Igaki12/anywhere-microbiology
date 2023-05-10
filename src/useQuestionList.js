@@ -33,7 +33,7 @@ export const useQuestionList = () => {
         //   answerImg: [],
         //   answer: '',
         //   commentary: '',
-        // },
+        // },F
         // {
         //   detailInfo: '',
         //   questionImg: [],
