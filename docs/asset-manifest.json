@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.b3555f73.js",
+    "main.js": "/anywhere-microbiology/static/js/main.ddb23881.js",
     "static/media/titleImg.jpg": "/anywhere-microbiology/static/media/titleImg.aaff375a334cd5b42e2a.jpg",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.b3555f73.js.map": "/anywhere-microbiology/static/js/main.b3555f73.js.map"
+    "main.ddb23881.js.map": "/anywhere-microbiology/static/js/main.ddb23881.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.b3555f73.js"
+    "static/js/main.ddb23881.js"
   ]
 }
