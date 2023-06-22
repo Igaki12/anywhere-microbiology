@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.9bec9516.js",
+    "main.js": "/anywhere-microbiology/static/js/main.9b332270.js",
     "static/media/tuberculosis.png": "/anywhere-microbiology/static/media/tuberculosis.6b0c51573575c2a7dbaf.png",
     "static/media/cilia.png": "/anywhere-microbiology/static/media/cilia.d12b8945e7a35af68511.png",
     "static/media/GramMethod.png": "/anywhere-microbiology/static/media/GramMethod.b8021d36f21504bd8ad9.png",
@@ -12,10 +12,10 @@
     "static/media/antiStain.png": "/anywhere-microbiology/static/media/antiStain.5eb746b093d707e408e5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.9bec9516.js.map": "/anywhere-microbiology/static/js/main.9bec9516.js.map"
+    "main.9b332270.js.map": "/anywhere-microbiology/static/js/main.9b332270.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.9bec9516.js"
+    "static/js/main.9b332270.js"
   ]
 }
