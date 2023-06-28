@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.9b332270.js",
+    "main.js": "/anywhere-microbiology/static/js/main.2be58eed.js",
+    "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
+    "static/media/question202202.png": "/anywhere-microbiology/static/media/question202202.1af22f3c70207fab3a7c.png",
     "static/media/tuberculosis.png": "/anywhere-microbiology/static/media/tuberculosis.6b0c51573575c2a7dbaf.png",
     "static/media/cilia.png": "/anywhere-microbiology/static/media/cilia.d12b8945e7a35af68511.png",
     "static/media/GramMethod.png": "/anywhere-microbiology/static/media/GramMethod.b8021d36f21504bd8ad9.png",
     "static/media/Chlamydiae.png": "/anywhere-microbiology/static/media/Chlamydiae.057c7827266fc75756f7.png",
-    "static/media/titleImg.jpg": "/anywhere-microbiology/static/media/titleImg.aaff375a334cd5b42e2a.jpg",
+    "static/media/titleImg.jpg": "/anywhere-microbiology/static/media/titleImg.993a9216abef1f0bbeda.jpg",
     "static/media/disinfection.png": "/anywhere-microbiology/static/media/disinfection.85c535873e5de1b415c6.png",
     "static/media/bacteriaStructure.png": "/anywhere-microbiology/static/media/bacteriaStructure.87d94fb7180a7f611988.png",
     "static/media/antiStain.png": "/anywhere-microbiology/static/media/antiStain.5eb746b093d707e408e5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.9b332270.js.map": "/anywhere-microbiology/static/js/main.9b332270.js.map"
+    "main.2be58eed.js.map": "/anywhere-microbiology/static/js/main.2be58eed.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.9b332270.js"
+    "static/js/main.2be58eed.js"
   ]
 }

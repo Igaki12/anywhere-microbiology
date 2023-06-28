@@ -8,6 +8,9 @@ import cilia from './img/answer/cilia.png';
 import Chlamydiae from './img/answer/Chlamydiae.png';
 import bacteriaStructure from './img/answer/bacteriaStructure.png';
 import antiStain from './img/answer/antiStain.png';
+import question202202 from './img/question/question202202.png';
+import question202201 from './img/question/question202201.png';
+
 
 // import from './img/answer/.png'
 
