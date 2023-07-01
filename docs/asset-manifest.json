@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.d25e0df9.js",
+    "main.js": "/anywhere-microbiology/static/js/main.70325095.js",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/question202202.png": "/anywhere-microbiology/static/media/question202202.1af22f3c70207fab3a7c.png",
     "static/media/tuberculosis.png": "/anywhere-microbiology/static/media/tuberculosis.6b0c51573575c2a7dbaf.png",
+    "static/media/diphtheriae.png": "/anywhere-microbiology/static/media/diphtheriae.7686ae0e0eb362442fcb.png",
+    "static/media/Lactobacillus.png": "/anywhere-microbiology/static/media/Lactobacillus.be1e89c5e5bb75e213a7.png",
     "static/media/cilia.png": "/anywhere-microbiology/static/media/cilia.d12b8945e7a35af68511.png",
     "static/media/GramMethod.png": "/anywhere-microbiology/static/media/GramMethod.b8021d36f21504bd8ad9.png",
+    "static/media/Actinomycetes.png": "/anywhere-microbiology/static/media/Actinomycetes.502593d86ca3c9778968.png",
     "static/media/antibiotics.png": "/anywhere-microbiology/static/media/antibiotics.f651419b5420631958e6.png",
     "static/media/Chlamydiae.png": "/anywhere-microbiology/static/media/Chlamydiae.057c7827266fc75756f7.png",
     "static/media/titleImg.jpg": "/anywhere-microbiology/static/media/titleImg.993a9216abef1f0bbeda.jpg",
@@ -16,10 +19,10 @@
     "static/media/antiStain.png": "/anywhere-microbiology/static/media/antiStain.5eb746b093d707e408e5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.d25e0df9.js.map": "/anywhere-microbiology/static/js/main.d25e0df9.js.map"
+    "main.70325095.js.map": "/anywhere-microbiology/static/js/main.70325095.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.d25e0df9.js"
+    "static/js/main.70325095.js"
   ]
 }
