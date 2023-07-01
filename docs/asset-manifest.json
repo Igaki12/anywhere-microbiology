@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.c76edf54.js",
+    "main.js": "/anywhere-microbiology/static/js/main.d25e0df9.js",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/question202202.png": "/anywhere-microbiology/static/media/question202202.1af22f3c70207fab3a7c.png",
     "static/media/tuberculosis.png": "/anywhere-microbiology/static/media/tuberculosis.6b0c51573575c2a7dbaf.png",
     "static/media/cilia.png": "/anywhere-microbiology/static/media/cilia.d12b8945e7a35af68511.png",
     "static/media/GramMethod.png": "/anywhere-microbiology/static/media/GramMethod.b8021d36f21504bd8ad9.png",
+    "static/media/antibiotics.png": "/anywhere-microbiology/static/media/antibiotics.f651419b5420631958e6.png",
     "static/media/Chlamydiae.png": "/anywhere-microbiology/static/media/Chlamydiae.057c7827266fc75756f7.png",
     "static/media/titleImg.jpg": "/anywhere-microbiology/static/media/titleImg.993a9216abef1f0bbeda.jpg",
+    "static/media/spectorum.png": "/anywhere-microbiology/static/media/spectorum.cb5d80292d78538937c7.png",
     "static/media/disinfection.png": "/anywhere-microbiology/static/media/disinfection.85c535873e5de1b415c6.png",
     "static/media/bacteriaStructure.png": "/anywhere-microbiology/static/media/bacteriaStructure.87d94fb7180a7f611988.png",
     "static/media/antiStain.png": "/anywhere-microbiology/static/media/antiStain.5eb746b093d707e408e5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.c76edf54.js.map": "/anywhere-microbiology/static/js/main.c76edf54.js.map"
+    "main.d25e0df9.js.map": "/anywhere-microbiology/static/js/main.d25e0df9.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.c76edf54.js"
+    "static/js/main.d25e0df9.js"
   ]
 }
