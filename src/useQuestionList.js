@@ -45,6 +45,15 @@ import betaLactamaseExample from './img/answer/betaLactamaseExample.png';
 import betaLactamaseCounterexample from './img/answer/betaLactamaseCounterexample.png';
 import antibioticsAnimal from './img/answer/antibioticsAnimal.png';
 import ampC from './img/answer/ampC.png';
+import VZV from './img/answer/VZV.png';
+import tsutsugamushi from './img/answer/tsutsugamushi.png';
+import Mycoplasma from './img/answer/Mycoplasma.png';
+import Leptospira from './img/answer/Leptospira.png';
+import infectiousMononucleosis from './img/answer/infectiousMononucleosis.png';
+import herpes from './img/answer/herpes.png';
+import EBVAntibody from './img/answer/EBVAntibody.png';
+import CMV from './img/answer/CMV.png';
+import ChlamydiaTrachomatis from './img/answer/ChlamydiaTrachomatis.png';
 
 
 
@@ -1090,29 +1099,29 @@ export const useQuestionList = () => {
         {
           detailInfo: '',
           questionImg: [],
-          questionSentence: '次のうち堕たしいのはどれか（複数選択可）',
-          choices: ["レプトスピラ症は保菌動物の尿で汚染された水や土壌などの直接的な接触によって経皮感染する", "ツガムシ病の3徴候は、発熱、刺し口の存在、発疹である", "ヘリコバクター・ピロリ菌は肝臓癌の原因となる", "レプトスピラ症は人獣共通感染症である", "マイコプラズマは細胞壁を有する", "Chlamydia trachomatis は性感染症の原因菌である"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          questionSentence: '次のうち正しいのはどれか（複数選択可）',
+          choices: ["レプトスピラ症は保菌動物の尿で汚染された水や土壌などの直接的な接触によって経皮感染する", "ツツガムシ病の3徴候は、発熱、刺し口の存在、発疹である", "ヘリコバクター・ピロリ菌は肝臓癌の原因となる", "レプトスピラ症は人獣共通感染症である", "マイコプラズマは細胞壁を有する", "Chlamydia trachomatis は性感染症の原因菌である"],
+          answerImg: [Leptospira, tsutsugamushi, Mycoplasma, ChlamydiaTrachomatis],
+          answer: '1,2,4,6が正しい',
+          commentary: 'ツツガムシ病はリケッチア感染症（偏性細胞内寄生性細菌）のひとつで、ツツガムシにより媒介される。発熱・刺し口・発疹の3徴候が特徴的。レプトスピラ症は野生動物や家畜やペットによって媒介される人獣共通感染症で、保菌動物の尿で汚染された水や土壌などとの直接的な接触により経皮感染することが特徴である。マイコプラズマは細胞壁を持たない細菌で、細胞壁を狙ったペニシリンなどの抗菌薬が効かないことが特徴的。クラミジア属は偏性細胞内寄生細菌で、性器クラミジアの原因となるC.trachomatisと、肺炎クラミジアの原因となるC.pneumoniae、オウム病クラミジアの原因となるC.psittaciに分類される。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'Varicella-Zoster virusについて正しいのはどれか（複数選択可）',
           choices: ["初感染では水痘を発症する", "水痘の潜伏期は数日から１週間である", "回帰感染は帯状発疹である", "空気感染を起こす", "不活化ワクチンを利用できる", "水痘生ワクチンは50歳以上を対象に水痘帯状発疹の予防に使用されている"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [VZV],
+          answer: '1,3,4,6が正しい',
+          commentary: '水痘は空気感染する非常に感染力の強いウイルスで、感染後10-21日で発症する。水痘として初感染したあとも体内に潜伏感染し続け、抵抗力減弱時などに帯状疱疹として発症することがある。定期接種として水痘生ワクチン、50歳以上を対象に帯状疱疹ワクチンを受けることができる。不活化ワクチンは存在しない。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '以下の文章で正しいのはどれか（複数選択可）',
-          choices: ["先天性サイトメガロウイルス感染症では、聴覚障害を起こすことがある", "本邦では妊婦の九割以上がサイトメガロウイルス抗体を保有している", "サイトメガロウイルス感染症は有効なワクチン接種により感染予防ができる", "伝染性単核症では末梢血中に異型リンパ球が出現することが多い", "単純ヘルペスウイルス１型は世紀ヘルペスを起こすことが多い", "EBウイルスのEA IgAが陽性の場合、初感染が疑われる"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          choices: ["先天性サイトメガロウイルス感染症では、聴覚障害を起こすことがある", "本邦では妊婦の九割以上がサイトメガロウイルス抗体を保有している", "サイトメガロウイルス感染症は有効なワクチン接種により感染予防ができる", "伝染性単核症では末梢血中に異型リンパ球が出現することが多い", "単純ヘルペスウイルス１型は性器ヘルペスを起こすことが多い", "EBウイルスのEA IgAが陽性の場合、初感染が疑われる"],
+          answerImg: [CMV, infectiousMononucleosis, EBVAntibody, herpes],
+          answer: '1,4が正しい',
+          commentary: 'サイトメガロウイルスは垂直感染し感音性難聴などの先天性障害を引き起こすTORCH症候群のCで、日本では妊婦の約75%が抗体を持っているが、抗体を持っていない場合は問題となる。成人に感染した場合は殆ど不顕性で経過し病原性は低い。ワクチンは存在しない。EBウイルスは急性感染で伝染性単核球症を招く場合があり、末梢血中に異型リンパ球が現れるほか、発熱・リンパ節腫脹・咽頭扁桃炎の3主徴が特徴的。EBVは殆どが不顕性感染で感染者の90%以上が潜伏感染＆生涯ウイルスを排泄し続け、バーキットリンパ腫や上咽頭がんの原因となる。初感染かどうかはEA IgG抗体を調べることで判定できる。性器ヘルペスを起こすのは単純ヘルペスウイルスⅡ型',
         },
         {
           detailInfo: '',
