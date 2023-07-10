@@ -23,6 +23,23 @@ import MALDI from './img/answer/MALDI.png';
 import ETEC from './img/answer/ETEC.png';
 import EIEC from './img/answer/EIEC.png';
 import EHEC from './img/answer/EHEC.png';
+import MultiDrugResistantPercentage from './img/answer/MultiDrugResistantPercentage.png';
+import virusBacteria from './img/answer/virusBacteria.png';
+import toxin from './img/answer/toxin.png';
+import resistanceSummary from './img/answer/resistanceSummary.png';
+import MRSALA from './img/answer/MRSALA.png';
+import MRSAFromDrugAbuse from './img/answer/MRSAFromDrugAbuse.png';
+import MRSA from './img/answer/MRSA.png';
+import metalloLactamase from './img/answer/metalloLactamase.png';
+import Klebsiella from './img/answer/Klebsiella.png';
+import influenzaHaemophilus from './img/answer/influenzaHaemophilus.png';
+import ESBL from './img/answer/ESBL.png';
+import disc from './img/answer/disc.png';
+import aeruginosa from './img/answer/aeruginosa.png';
+import Acinetobacter from './img/answer/Acinetobacter.png';
+import pertussis from './img/answer/pertussis.png';
+import Bartonella from './img/answer/Bartonella.png';
+
 
 
 
@@ -421,9 +438,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '細胞毒に該当する毒素はどれか（複数選択可）',
           choices: ["コレラ毒素", "百日咳毒素", "ジフテリア毒素", "テタノスパスミン", "腸炎ビブリオ毒素"],
-          answerImg: [],
+          answerImg: [toxin],
           answer: 'コレラ毒素、百日咳毒素、腸炎ビブリオ毒素',
-          commentary: '毒素は主に神経毒、腸管毒、細胞毒に分類され、テタノスパスミン（破傷風毒素）やボツリヌス毒素は神経毒に、コレラ毒素やブドウ球菌エンテロトキシンや大腸菌由来ベロ毒素は腸管毒に、コレラ毒素や百日咳毒素や腸炎ビブリオ毒素は細胞毒に分類される。',
+          commentary: '毒素は主に神経毒、腸管毒、細胞毒に分類され、テタノスパスミン（破傷風毒素）やボツリヌス毒素は神経毒に、コレラ毒素やブドウ球菌エンテロトキシンや大腸菌由来ベロ毒素は腸管毒に、ジフテリア毒素や百日咳毒素や腸炎ビブリオ毒素は細胞毒に分類される。',
         },
         {
           detailInfo: '',
@@ -457,9 +474,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '薬剤耐性菌について正しいのはどれか（複数選択可）',
           choices: ["薬剤耐性出現のメカニズムには、自然耐性と獲得耐性がある", "抗菌薬使用と薬剤耐性菌に関係性はない", "世界における薬剤獲得菌に直接起因する死亡者数は、年間100万人以上である", "MRSAは通常の黄色ブドウ球菌に比較して感染力が高い", "バンコマイシン耐性黄色ブドウ球菌は、日本ではまだ分離されたことはない", "ウイルスにも抗ウイルス薬耐性が出現している"],
-          answerImg: [],
-          answer: '1,2,3,5が正しい',
-          commentary: '薬剤耐性は細菌が備え持つ耐性機構である自然耐性、遺伝子変異を獲得することによる突然変異獲得、プラスミドなどによって外部から獲得する外来遺伝子獲得に分類され、突然変異獲得と外来遺伝子獲得は獲得耐性として扱われる。このうち、突然変異獲得は抗菌薬を使うことで淘汰圧が加わり増える耐性で、抗菌薬の正しい使用が求められる。薬剤耐性に直接起因する死亡者は127万人で、その関連師は495万人と言われる。MRSAをはじめ薬剤耐性菌の多くは生存に不必要なタンパク合成や薬剤排出を行っているため、増える能力は通常種より低いことが多い→抗菌薬を使わなければ耐性菌は自然に減少する。黄色ブドウ球菌はペニシリンに自然耐性をもつほか、メチシリンに耐性を持つMRSA、バンコマイシンに耐性をもつVRSAが猛威を振るっており、そのうちMRSAは日本で特に多く（60%/５類定点）見つかっているが、VRSAは現在日本では報告されていない（0%/５類全数）。MRSAの治療にはバンコマイシンが使われるため、このような耐性菌の出現は治療を難しくする。ウイルスも突然変異により薬剤耐性を獲得するため、特にHIVでは多剤服用がゴールドスタンダードになっている。現在有効と言える坑ウイルス剤はHIV、ヘルペスウイルス、インフルエンザウイルス。',
+          answerImg: [MultiDrugResistantPercentage],
+          answer: '1,3,6が正しい',
+          commentary: '薬剤耐性は細菌が備え持つ耐性機構である自然耐性、遺伝子変異を獲得することによる突然変異獲得、プラスミドなどによって外部から獲得する外来遺伝子獲得に分類され、突然変異獲得と外来遺伝子獲得は獲得耐性として扱われる。このうち、突然変異獲得は抗菌薬を使うことで淘汰圧が加わり増える耐性で、抗菌薬の正しい使用が求められる。薬剤耐性に直接起因する死亡者は127万人で、その関連師は495万人と言われる。MRSAをはじめ薬剤耐性菌の多くは生存に不必要なタンパク合成や薬剤排出を行っているため、増える能力は通常種より低いことが多い→抗菌薬を使わなければ耐性菌は自然に減少する。黄色ブドウ球菌はペニシリンに自然耐性をもつほか、メチシリンに耐性を持つMRSA、バンコマイシンに耐性をもつVRSAが猛威を振るっており、そのうちMRSAは日本で特に多く（60%/５類定点）見つかっているが、VRSAは2017年時点で日本では一切報告されていない（0%/５類全数）。MRSAの治療にはバンコマイシンが使われるため、このような耐性菌の出現は治療を難しくする。ウイルスも突然変異により薬剤耐性を獲得するため、特にHIVでは多剤服用がゴールドスタンダードになっている。現在有効と言える坑ウイルス剤はHIV、ヘルペスウイルス、インフルエンザウイルス。',
         },
         {
           detailInfo: '',
@@ -484,8 +501,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '薬剤耐性菌が発生・伝播する原因はどれか（複数選択可）',
           choices: ["抗菌薬の過剰投与・過剰処方", "新しい抗菌薬の開発の遅れ", "MRSAやVREの耐性菌が発生する要因は、抗菌薬の使用による", "医療機関における不十分な院内感染対策", "MRSAなど動物由来とされるものもある"],
-          answerImg: [],
-          answer: '抗菌薬の過剰投与・過剰処方、　医療機関における不十分な院内感染対策',
+          answerImg: [MRSAFromDrugAbuse, MRSALA],
+          answer: '1,3,5が該当',
           commentary: '抗菌薬の過剰使用(overuse)と誤用(misuse)が耐性菌選択圧を高める。新しい抗菌薬の開発の遅れがあることは事実だが、薬剤耐性菌の原因にはならない。黄色ブドウ球菌MSSAは突然変異ではMRSAに変身しない→抗菌薬を使っただけでは自然発生しないため、接触感染予防策の不全による院内感染を疑うべき。MRSAは家畜由来のLA-MRSA(livestock-associated MRSA:家畜関連MRSA)が問題となっている',
         },
         {
@@ -538,8 +555,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'ウイルスの説明で正しいのはどれか（複数選択可）',
           choices: ["宿主細胞内のみで増殖する", "エネルギー産生機構を持たない", "人工培地で培養できる", "多くは種特異的、組織特異的に感染する", "ウイルスゲノムが宿主細胞のゲノムに組み込まれることがある"],
-          answerImg: [],
-          answer: '宿主細胞内のみで増殖する、　多くは種特異的、組織特異的に感染する、　ウイルスゲノムが宿主細胞のゲノムに組み込まれることがある',
+          answerImg: [virusBacteria],
+          answer: 'すべて正しい',
           commentary: 'ウイルスはバクテリアとは異なり、培地などで自己増殖できず、宿主細胞の反応系を使って増殖する。エネルギーも宿主細胞のものを使う。ウイルスの一部はゲノムを宿主細胞のゲノムに組み込み、発ガンを誘導する。',
         },
         {
@@ -574,9 +591,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '実習で行った操作について正しいのはどれか（複数選択可）',
           choices: ["白金耳は火炎滅菌して実験を行った", "換気をよくする必要があり、窓を開けて実験を行った", "光学顕微鏡で観察する際、無水アルコールを滴下してから検鏡した", "生化学的性状試験により菌種を同定した", "薬剤感受性について、薬剤ディスクの周辺の阻止円の直径の長さにより判別した"],
-          answerImg: [],
+          answerImg: [disc],
           answer: '白金耳は火炎滅菌して実験を行った、　生化学的性状試験により菌種を同定した、　薬剤感受性について、薬剤ディスクの周辺の阻止円の直径の長さにより判別した',
-          commentary: '一般注意事項その４：実習中はほとんどの操作を無菌状態で行うため出入り口のドア及び窓は常時閉めておく。　光学顕微鏡は庾信レンズを用いるので、油侵オイルを一滴滴下して観察した（使用後は無水エタノールを用いて清拭した）。　菌種の同定には生化学的性状（IDテスト）のほか、遺伝子同定で調べる方法もある。',
+          commentary: '一般注意事項その４：実習中はほとんどの操作を無菌状態で行うため出入り口のドア及び窓は常時閉めておく。　光学顕微鏡は油浸レンズを用いるので、油侵オイルを一滴滴下して観察した（使用後は無水エタノールを用いて清拭した）。　菌種の同定には生化学的性状（IDテスト）のほか、遺伝子同定で調べる方法もある。',
         },
         {
           detailInfo: '',
@@ -996,37 +1013,37 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '以下の文について正しいのはどれか（複数選択可）',
-          choices: ["Bartonella heselae は猫引っかき病の原因菌である", "Bordetella pertussis は百日咳の原因菌である", "Accinetobacter baumannii は乾燥に弱い", "Psudomonas aeruginosaは乾燥に強い", "Klebsiella pneumoniae は暑い莢膜をもつ"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          choices: ["Bartonella heselae は猫引っかき病の原因菌である", "Bordetella pertussis は百日咳の原因菌である", "Accinetobacter baumannii は乾燥に弱い", "Psudomonas aeruginosaは乾燥に強い", "Klebsiella pneumoniae は厚い莢膜をもつ"],
+          answerImg: [Bartonella, pertussis, Acinetobacter, aeruginosa, Klebsiella],
+          answer: '1,5が正しい',
+          commentary: 'Bartonella henselaeはバルトネラ属で主要なグラム陰性好気性桿菌。百日咳菌は同じグラム陰性好気性桿菌ではあるがボルデテラ属。アシネトバクターバウマニは環境や土壌に広く生息していて、グラム陰性桿菌のなかでは比較的乾燥に強い。緑膿菌(P.aeruginosa)は水回りに生息し、乾燥に弱い。クレブシエラ属は厚い莢膜が特徴的な腸内細菌科細菌で、ペニシリン系に自然耐性をもちESBL産生による院内感染が問題となっている。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'インフルエンザ菌について正しいのはどれか（複数選択可）',
-          choices: ["グラム陽性菌である", "血液寒天培地に発育できる", "無莢膜かぶと莢膜カブがあり、莢膜株は抗原性からa~fに分類できる", "全身感染症を起こしやすいのはb型菌(Hib)であり、近年、Hibワクチンが定期接種となった", "インフルエンザ菌による急性中耳炎や急性副鼻腔炎は、無莢膜株によるものが多い"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          choices: ["グラム陽性菌である", "血液寒天培地に発育できる", "無莢膜株と莢膜株があり、莢膜株は抗原性からa~fに分類できる", "全身感染症を起こしやすいのはb型菌(Hib)であり、近年、Hibワクチンが定期接種となった", "インフルエンザ菌による急性中耳炎や急性副鼻腔炎は、無莢膜株によるものが多い"],
+          answerImg: [influenzaHaemophilus],
+          answer: '3,4,5が正しい',
+          commentary: 'インフルエンザ菌はインフルエンザ（ウイルス感染症）の原因として間違われていたグラム陰性短桿菌。インフルエンザのように気道に感染し喀痰から検出されるが、常在菌でほとんど病原性はもっていない。チョコレート寒天培地によって培養されるのが特徴的。a~fの血清型は莢膜をもち、全身感染症を起こすb型に対してはHibワクチンが著効。生後2か月から計４回定期接種が行われる。　一方で敗血症を起こさない無莢膜型にはHibワクチンはほとんど効果が無い。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'メタロ-β-ラクタマーゼについて誤っているのはどれか（複数選択可）',
           choices: ["本邦で検出される多くはプラスミド性に産生される", "ペニシリン系薬を加水分解することができる", "セファマイシン系薬を加水分解することができる", "モノバクタム系薬を加水分解することができる", "活性保持に金属イオンが必要である"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [metalloLactamase, resistanceSummary],
+          answer: '4が誤り...モノバクタム系には耐性を持たない',
+          commentary: 'メタロ-β-ラクタマーゼ(IMP-6など)は大腸菌、アシネトバクター、緑膿菌などが産生するクラスB型β-ラクタマーゼで、多くはプラスミド性に産生され、セファマイシンにはもちろん、βラクタマーゼの中でもカルバペネム系にまで耐性を持つ点が特徴的である。メタロ-β-ラクタマーゼだけではモノバクタム(AZT)には耐性を持たないが、ESBLも産生している場合はほぼすべてのβ-ラクタム系抗菌薬に耐性を持つことになる。活性には亜鉛イオンが必要である。抗菌薬を使っても自然には発生せず、プラスミドの接合伝達によって獲得される薬剤耐性である　→発見されれば院内感染が疑われる。孔が少なく小さい緑膿菌が産生するようになるとほとんどの薬剤に耐性を持つようになり、非常に治療が難しくなる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '基質特異性拡張型β-ラクタマーゼ(ESBL)について正しいものはどれか（複数選択可）',
           choices: ["クラブラン酸(CVA)などのβ-ラクタマーゼ阻害薬により阻害を受ける", "MRSAによって産生される", "カルバペネム系薬を効率よく加水分解する", "セファマイシン系薬を効率よく分解する", "近年、ESBLは市中感染が見られるようになった", "近年、大腸菌での分離率が上昇している"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [ESBL, resistanceSummary],
+          answer: '1,5,6が正しい',
+          commentary: 'ESBLはクラスA型β-ラクタマーゼ(ペニシリン系にのみ耐性)が変異したもので、さらにセファロスポリン系、モノバクタム系にまで耐性を持つようになった。ESBLは大腸菌などグラム陰性腸内細菌科が産生するもので、MRSA(メチリシン耐性黄色ブドウ球菌)はほとんどがペニシリンに自然耐性で無関係。一方でセファマイシン系、カルバペネム系のβ-ラクタム系抗菌薬には耐性を持たず、CVAで阻害される（実習でもCVAで阻害されるかどうかでESBL産生かどうかを判断した）。ESBLもプラスミドによる接合伝達によって伝播されるため、院内感染対策を徹底することが重要である。実習でも毎年数人の腸内細菌からESBLが分離されている。',
         },
         {
           detailInfo: '',
@@ -1172,15 +1189,15 @@ export const useQuestionList = () => {
         //   answer: '',
         //   commentary: '',
         // },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence: '',
-        //   choices: ["", "", "", "", ""],
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: ["", "", "", "", ""],
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
         // {
         //   detailInfo: '',
         //   questionImg: [],
@@ -1228,7 +1245,37 @@ export const useQuestionList = () => {
         //   commentary: '',
         // },
       ],
-    },
+    }, {
+      groupTag: "2021本試",
+      groupContents: [{
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: ["", "", "", "", ""],
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: ["", "", "", "", ""],
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: ["", "", "", "", ""],
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+      ]
+    }
   ])
   const showQuestionList = () => {
     return questionList
