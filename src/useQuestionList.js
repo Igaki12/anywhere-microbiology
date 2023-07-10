@@ -39,6 +39,12 @@ import aeruginosa from './img/answer/aeruginosa.png';
 import Acinetobacter from './img/answer/Acinetobacter.png';
 import pertussis from './img/answer/pertussis.png';
 import Bartonella from './img/answer/Bartonella.png';
+import produceBetaLactamase from './img/answer/produceBetaLactamase.png';
+import penicillinase from './img/answer/penicillinase.png';
+import betaLactamaseExample from './img/answer/betaLactamaseExample.png';
+import betaLactamaseCounterexample from './img/answer/betaLactamaseCounterexample.png';
+import antibioticsAnimal from './img/answer/antibioticsAnimal.png';
+import ampC from './img/answer/ampC.png';
 
 
 
@@ -1043,16 +1049,16 @@ export const useQuestionList = () => {
           choices: ["クラブラン酸(CVA)などのβ-ラクタマーゼ阻害薬により阻害を受ける", "MRSAによって産生される", "カルバペネム系薬を効率よく加水分解する", "セファマイシン系薬を効率よく分解する", "近年、ESBLは市中感染が見られるようになった", "近年、大腸菌での分離率が上昇している"],
           answerImg: [ESBL, resistanceSummary],
           answer: '1,5,6が正しい',
-          commentary: 'ESBLはクラスA型β-ラクタマーゼ(ペニシリン系にのみ耐性)が変異したもので、さらにセファロスポリン系、モノバクタム系にまで耐性を持つようになった。ESBLは大腸菌などグラム陰性腸内細菌科が産生するもので、MRSA(メチリシン耐性黄色ブドウ球菌)はほとんどがペニシリンに自然耐性で無関係。一方でセファマイシン系、カルバペネム系のβ-ラクタム系抗菌薬には耐性を持たず、CVAで阻害される（実習でもCVAで阻害されるかどうかでESBL産生かどうかを判断した）。ESBLもプラスミドによる接合伝達によって伝播されるため、院内感染対策を徹底することが重要である。実習でも毎年数人の腸内細菌からESBLが分離されている。',
+          commentary: 'ESBLはクラスA型β-ラクタマーゼ(ペニシリン系にのみ耐性)が変異したもので、さらにセファロスポリン系、モノバクタム系にまで耐性を持つようになった。ESBLは大腸菌などグラム陰性桿菌が産生するもので、MRSA(メチリシン耐性黄色ブドウ球菌)はほとんどがペニシリンに自然耐性で無関係。一方でセファマイシン系、カルバペネム系のβ-ラクタム系抗菌薬には耐性を持たず、CVAで阻害される（実習でもCVAで阻害されるかどうかでESBL産生かどうかを判断した）。ESBLもプラスミドによる接合伝達によって伝播されるため、院内感染対策を徹底することが重要である。実習でも毎年数人の腸内細菌からESBLが分離されている。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'ペニシリナーゼについて、正しいのはどれか（複数選択可）',
           choices: ["クラブラン酸(CVA)などのβ-ラクタマーゼ阻害薬により阻害を受ける", "Klebsiella pneumoniae は染色体にペニシリナーゼ遺伝子を有する", "Haemophilius influenzae は染色体にペニシリナーゼ遺伝子を有する", "Proteus mirabilis は染色体にペニシリナーゼ遺伝子を有する", "第3世代セファロスポリンを効率よく加水分解する", "カルバペネムを効率よく加水分解する"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [penicillinase, resistanceSummary],
+          answer: '1,2,4が正しい',
+          commentary: 'ペニシリナーゼはクラスA型β-ラクタマーゼで、プラスミド性で接合伝達されるものと、染色体性で自然に産生されるものが存在する。K.pneumoniae(肺炎桿菌)やP.mirabilisはペニシリン系に自然耐性をもち、H.influenzae(インフルエンザ菌)にもペニシリナーゼを産生するBLPAR株がいるが、インフルエンザ菌はプラスミド性。ペニシリナーゼはペニシリンと第一世代セファロスポリンにのみ耐性を持ち、CVAに阻害され、第三世代セファロスポリンやカルバペネム系は有効である。',
         },
         {
           detailInfo: '',
@@ -1068,18 +1074,18 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '次の文で正しいのはどれか（複数選択可）',
           choices: ["β-ラクタマーゼの産生様式には構成型と誘導型がある", "Stenotrophomonas maltophilia はクラスC型β-ラクタマーゼを誘導型に産生する", "健常人の半数以上がESBL産生菌を保有している", "One Health とは、「ヒト・動物・環境は相互に関連し、それら全てをいい状態にすることで真の健康が得られる」という概念である", "販売された抗菌薬の量はヒト用より動物用の方が多い"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [produceBetaLactamase, betaLactamaseExample, antibioticsAnimal],
+          answer: '4,5が正しい',
+          commentary: 'β-ラクタマーゼの産生様式には、構成型・誘導型・脱抑制型が存在する。　クラスC型β-ラクタマーゼはセファロスポリナーゼともよばれ、ペニシリン、セファマイシン系、セファロスポリン系(第1世代-第3世代)、モノバクタム系に耐性を持ちCVAによる阻害を受けないが、第4世代セファロスポリンとカルバペネム系は有効。S.maltophiliaはクラスB型β-ラクタマーゼを染色体性に産生する。ESBLは腸内常在し健常者でも保菌者はいるが、半数以上ではなく10%程度。動物（家畜・渡り鳥など）や環境との相互作用によって感染症が発生・伝播することがあり、ヒトだけでなくこれらすべてに対応しようとする概念が、ワンヘルスアプローチである。抗菌薬はヒト向けより家畜向けのほうが販売量が多く、乱用されやすい。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '染色体性にβ-ラクタマーゼ遺伝子を有する菌種はどれか（複数選択可）',
           choices: ["Staphylococcus aureus", "Klebsiella pneumoniae", "Enterobacter cloacae", "Streptococcus pneumoniae", "Neisseria gonorrhoeae"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [betaLactamaseCounterexample, betaLactamaseExample],
+          answer: 'K.pneumoniae',
+          commentary: 'K.pneumoniae(肺炎球菌)はクラスA型βラクタマーゼを染色体性に産生する（ペニシリンに自然耐性をもつ）。E.cloacae（腸球菌）はプラスミド性にESBLを産生するものがいる（接合伝達する）。',
         },
         {
           detailInfo: '',
@@ -1189,15 +1195,15 @@ export const useQuestionList = () => {
         //   answer: '',
         //   commentary: '',
         // },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: '',
-          choices: ["", "", "", "", ""],
-          answerImg: [],
-          answer: '',
-          commentary: '',
-        },
+        // {
+        //   detailInfo: '',
+        //   questionImg: [],
+        //   questionSentence: '',
+        //   choices: ["", "", "", "", ""],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
         // {
         //   detailInfo: '',
         //   questionImg: [],
