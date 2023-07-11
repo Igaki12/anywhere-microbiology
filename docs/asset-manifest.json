@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.ae879918.js",
+    "main.js": "/anywhere-microbiology/static/js/main.6189c7c2.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/question202202.png": "/anywhere-microbiology/static/media/question202202.1af22f3c70207fab3a7c.png",
@@ -63,6 +63,7 @@
     "static/media/sterilization.png": "/anywhere-microbiology/static/media/sterilization.37ea7e5b5dbd03e1bd23.png",
     "static/media/Chlamydiae.png": "/anywhere-microbiology/static/media/Chlamydiae.057c7827266fc75756f7.png",
     "static/media/adenoVirus.png": "/anywhere-microbiology/static/media/adenoVirus.f381fa0eedf8e702d610.png",
+    "static/media/pneumoniaeStreptococcus2.png": "/anywhere-microbiology/static/media/pneumoniaeStreptococcus2.a7f6226e80933f1f9ff0.png",
     "static/media/mask.png": "/anywhere-microbiology/static/media/mask.844ed0957113447235b0.png",
     "static/media/MRSA.png": "/anywhere-microbiology/static/media/MRSA.13470a1ee9b54f63726a.png",
     "static/media/SFTS.png": "/anywhere-microbiology/static/media/SFTS.a72edd77b1e32c62efe4.png",
@@ -137,10 +138,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.ae879918.js.map": "/anywhere-microbiology/static/js/main.ae879918.js.map"
+    "main.6189c7c2.js.map": "/anywhere-microbiology/static/js/main.6189c7c2.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.ae879918.js"
+    "static/js/main.6189c7c2.js"
   ]
 }

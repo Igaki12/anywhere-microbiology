@@ -597,7 +597,7 @@ export const useQuestionList = () => {
           questionSentence: '薬剤耐性菌が発生・伝播する原因はどれか（複数選択可）',
           choices: ["抗菌薬の過剰投与・過剰処方", "新しい抗菌薬の開発の遅れ", "MRSAやVREの耐性菌が発生する要因は、抗菌薬の使用による", "医療機関における不十分な院内感染対策", "MRSAなど動物由来とされるものもある"],
           answerImg: [MRSAFromDrugAbuse, MRSALA],
-          answer: '1,3,5が該当',
+          answer: '1,4,5が該当',
           commentary: '抗菌薬の過剰使用(overuse)と誤用(misuse)が耐性菌選択圧を高める。新しい抗菌薬の開発の遅れがあることは事実だが、薬剤耐性菌の原因にはならない。黄色ブドウ球菌 MSSA は突然変異ではMRSAに変身しない → 抗菌薬を使っただけでは自然発生しないため、接触感染予防策の不全による院内感染を疑うべき。MRSAは家畜由来のLA-MRSA(livestock-associated MRSA:家畜関連MRSA)が問題となっている',
         },
         {
