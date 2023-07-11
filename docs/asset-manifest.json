@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.50f84339.js",
+    "main.js": "/anywhere-microbiology/static/js/main.d90ad1ea.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/question202202.png": "/anywhere-microbiology/static/media/question202202.1af22f3c70207fab3a7c.png",
@@ -138,10 +138,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.50f84339.js.map": "/anywhere-microbiology/static/js/main.50f84339.js.map"
+    "main.d90ad1ea.js.map": "/anywhere-microbiology/static/js/main.d90ad1ea.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.50f84339.js"
+    "static/js/main.d90ad1ea.js"
   ]
 }
