@@ -101,6 +101,27 @@ import betaDGlucan13 from './img/answer/betaDGlucan13.png';
 import antigenDrift from './img/answer/antigenDrift.png';
 import antiFungal from './img/answer/antiFungal.png';
 import adenoVirus from './img/answer/adenoVirus.png';
+import tuberculosisTreatment2 from './img/answer/tuberculosisTreatment2.png';
+import tuberculosisTreatment from './img/answer/tuberculosisTreatment.png';
+import tuberculosisSideEffect from './img/answer/tuberculosisSideEffect.png';
+import tuberculosisDiagnosis from './img/answer/tuberculosisDiagnosis.png';
+import TDM from './img/answer/TDM.png';
+import standardPrecautions from './img/answer/standardPrecautions.png';
+import Shiga from './img/answer/Shiga.png';
+import probiotics from './img/answer/probiotics.png';
+import prebiotics from './img/answer/prebiotics.png';
+import mask from './img/answer/mask.png';
+import lepraeMycobacterium from './img/answer/lepraeMycobacterium.png';
+import Koch from './img/answer/Koch.png';
+import ICT from './img/answer/ICT.png';
+import hospitalAcquiredInfection from './img/answer/hospitalAcquiredInfection.png';
+import handWashing from './img/answer/handWashing.png';
+import gown from './img/answer/gown.png';
+import empiricTherapy from './img/answer/empiricTherapy.png';
+import emergingDiseases from './img/answer/emergingDiseases.png';
+import DoderleinBacillus from './img/answer/DoderleinBacillus.png';
+import AST from './img/answer/AST.png';
+import antibiogram from './img/answer/antibiogram.png';
 
 
 
@@ -752,7 +773,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '肺結核症の原因菌はどれか（複数選択可）',
           choices: ["Mycobacterium gordonae", "Mycobacterium avium complex", "Mycobacterium leprae", "Mycobacterium tuberculosis", "Mycobacterium kansasii"],
-          answerImg: [],
+          answerImg: [tuberculosis],
           answer: 'Mycobacterium tuberculosis',
           commentary: '結核菌群に含まれるのは、Mycobacterium属の中でもM.tuberculosis、M.bovis、M.africanum、M.caprae、M .canettii、M.microti、M.pinnipediiで、M.lapraeとM.lepraemuriumはらい菌群に分類される。そのほかM.avium complexやM.gordonae、M.kansasiiなどは非結核性抗酸菌群NTM:nontuberculosis mycobacteriaに分類される。結核菌は空気感染する偏性好気性細胞内寄生性抗酸菌で、治療には抗結核薬が用いられる。らい菌はハンセン病の原因菌で、感染力が極めて低く遺伝しない。NTMは環境中に広く分布する日和見感染症の原因。',
         },
@@ -761,7 +782,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '肺結核症を疑って検査をすすめるべきケースはどれか（複数選択可）',
           choices: ["２週間以上長引く咳", "抗菌薬に反応の悪い不明熱", "他疾患の治療中に咳、発熱が出現し直りにくい", "原因不明の体重減少・衰弱など", "呼吸器症状はないが、がんの術後"],
-          answerImg: [],
+          answerImg: [tuberculosisDiagnosis],
           answer: '1,2,3,4の場合、肺結核を疑うべき',
           commentary: '肺結核は疑わなければ診断できない。２週間以上長引く咳や、抗菌薬不応性の熱、原因不明の体重減少・衰弱（特に高齢者）、他疾患の治療中に咳・発熱が出現し治りにくいなどの場合は塗抹検査(喀痰塗抹調査など)・培養検査・PCR検査などの結核菌検査を行うべきである。塗沫検査やPCR検査は短時間でできる検査で、培養検査は最終的な生きた生きた結核菌が存在するか、薬剤耐性の確認などで利用される。',
         },
@@ -770,7 +791,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '肺結核の治療に関して、不適切なのはどれか（複数選択可）',
           choices: ["化学療法は単剤で行うのが原則である", "症状が軽快した場合、治療は直ちに終了する", "肺結核の治療において薬剤による副作用を早期に発見することが大切である", "薬剤感受性試験の結果が判明後に治療を行う", "ピラジナミドは副作用が少ないため、80歳以上の高齢者でも積極的に使用する"],
-          answerImg: [],
+          answerImg: [tuberculosisTreatment2, tuberculosisTreatment],
           answer: '1,2,4,5は不適切',
           commentary: '結核化学療法の原則として、感性剤の使用、副作用の早期発見、完全服薬DOTSの実施、併用療法がある。結核は薬剤耐性菌が発生しやすく、治療は感受性のある複数の抗結核薬の併用療法が原則となる。服用の中断は薬剤耐性菌の原因となるので、必ず最後まで服薬してもらう。副作用は1/4の割合で起こるとも言われる。感受性試験の結果には時間がかかり、結果が出るまでの間も効きそうな薬を用いて治療を行うことが重要。ピラジナミドは抗結核薬であるが、肝障害・アレルギー・皮膚炎・胃炎・血液異常・関節痛などの副作用が報告されている。副作用の少ない抗結核薬は存在しないので、特に治療開始初期の２ヶ月間はさまざまな検査を行いながら副作用がないか調べる。',
         },
@@ -779,7 +800,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '結核の治療に用いる以下の薬剤と副作用の関係で不適切なのはどれか（複数選択可）',
           choices: ["INHイソニアジド - 末梢神経障害", "RFPリファンピシン - 血液異常", "EBエタンブトール - 第８脳神経障害", "PZAピラジナミド - 肝障害", "SMストレプトマイシン - 視覚障害"],
-          answerImg: [],
+          answerImg: [tuberculosisSideEffect],
           answer: '3,5が誤り',
           commentary: '日本で用いられる主な抗結核薬として、リファンピジンREF、イソニアジドINH、ピラジナミドPZA、エタンブトールEB、ストレプトマイシンSMがある。結核では多剤併用が基本であり、2(2ヶ月間の)HRZE/4HRや6(６ヶ月間の)HRE/3HRといった治療法が採用されるが、いずれもかなりの割合で副作用が出現する。INHは肝障害・アレルギー・血液異常・末梢神経炎などのリスクがあり、RFPは肝障害・アレルギー・血液異常・胃炎などのリスク、EBは肝障害・アレルギー・血液異常・視力・色覚異常、PZAは肝障害・アレルギー・皮膚炎・胃炎・血液障害・関節痛などのリスク、SMはアレルギー・聴覚障害・腎障害・第８脳神経障害などのリスクが報告されている。副作用は4人に1人の割合とも言われ、治療を開始したら都度検査を行い副作用の早期発見を目指す。',
         },
@@ -788,7 +809,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'ハンセン病に関して正しいのはどれか（複数選択可）',
           choices: ["遺伝はしない", "感染力は比較的高い", "感染しても発症は稀", "1996年 (平成 8 年)になってようやく 「らい予防法」は廃止された", "完治する病となった現在も、差別は残っている"],
-          answerImg: [],
+          answerImg: [lepraeMycobacterium],
           answer: '1,3,4,5が正しい',
           commentary: 'ハンセン病はらい菌による慢性の細菌性感染症で、遺伝しない・感染力が極めて低い・感染しても発症は稀・現在でリファンピシンという効果的な治療薬がある、という特徴を持つ。かつては原因や治療法が見つからなかったため、らい予防法(昭和28年公布平成8年廃止)による患者の隔離・排除→差別が横行していた。完治する病となった現在でも、この差別は残っている。',
         },
@@ -797,7 +818,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '次の手指衛生に関する記述で正しいのはどれか（複数選択可）',
           choices: ["流水と石鹸による方法とアルコールによる方法があるが、流水と石鹸による方が手指の微生物をより多く減少させることができる", "Clostridioides difficile感染症の患者の処置の後、流水と石鹸による手洗いを行った", "患者の診察を行う前、アルコールによる手指衛生を行った", "処置で手袋を使用した際には、脱いだ後手指衛星は必要ない", "患者の採血後、血液が手に付着してしまったため、アルコールによる手指衛生を行った"],
-          answerImg: [],
+          answerImg: [handWashing],
           answer: '2,3が正しい',
           commentary: '細菌を減らす効果は、石鹸＋流水よりアルコールの方が高い（多く減少させる）が、アルコールはディフィシルのような芽胞形成菌に対して消毒作用が不十分である。このような芽胞や単純な汚れの場合は石鹸＋流水による洗い流し作用による手指衛生を行う方が有効である。医療行為や介護の前後などには、アルコールや石鹸＋流水のような衛生学的手洗いが行われる。手袋は一定の割合で不良品が混ざっていたり、手袋を脱ぐ際に手指が汚染されたりすることがあるので、手袋を脱いだ後に手指衛生が必要。血液が手に付着した場合はまず石鹸＋流水で洗いながすべき。',
         },
@@ -806,16 +827,16 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '標準予防策について正しいのはどれか（複数選択可）',
           choices: ["汗以外のすべての患者の体液は、感染性のあるものとして取り扱う", "医師や看護師など、患者と直接接する職種を対象とした対策である", "患者の血圧測定をするため、手袋を着用した", "患者の採血を行うため、手袋を着用した", "呼吸器衛生・咳エチケットも構成要素の1つである"],
-          answerImg: [],
+          answerImg: [standardPrecautions],
           answer: '1,4,5が正しい',
-          commentary: '標準予防策は、すべての患者に対して、清掃員など含む全ての職員が行うべき院内感染対策の指針である。1.汗以外の体液・分泌物・排泄物は感染性があるとみなし、素手では触らない。2.粘膜には素手で触らない。3.正常ではない皮膚には素手で触らない。　特に重要なのは手指衛生、個人防護具の使用、呼吸器衛生・咳エチケットの3つである。血圧測定など、皮膚を触る程度なら標準予防策の適応にはならない。',
+          commentary: '標準予防策(Standard Precautions)は、すべての患者に対して、清掃員など含む全ての職員が行うべき院内感染対策の指針である。1.汗以外の体液・分泌物・排泄物は感染性があるとみなし、素手では触らない。2.粘膜には素手で触らない。3.正常ではない皮膚には素手で触らない。　特に重要なのは手指衛生、個人防護具の使用、呼吸器衛生・咳エチケットの3つである。血圧測定など、皮膚を触る程度なら標準予防策の適応にはならない。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '感染経路別予防策について、間違っているのははどれか（複数選択可）',
           choices: ["医療機関において重要な3つの感染経路は、接触感染、飛沫感染、空気感染である", "インフルエンザの患者に対応するため、サージカルマスクを着用した", "新型コロナウイルス感染症の主たる感染経路は接触感染である", "結核性胸膜炎の患者に対応するため、N95マスクを着用しなければならない", "MRSA保菌患者の血圧を測定するため、手袋とエプロンを着用した"],
-          answerImg: [],
+          answerImg: [mask, gown],
           answer: '3,4,5が誤り',
           commentary: 'マスクにはサージカルマスクとN95マスクの二種類があり、インフルエンザのような飛沫感染する感染症患者に対応する際は、サージカルマスクを着用する。新型コロナウイルス感染症の感染経路としてエアロゾル感染があり、こちらは細かい粒子からでも感染するリスクがあるためN95マスクの着用が推奨される。結核性胸膜炎は結核菌の感染により引き起こされる胸膜炎であるが、肺結核とは異なり結核菌を他人に移す可能性が極めて低いため、必ずしもN95マスクを着用しなければならないわけではない。MRSAのような接触感染のリスクがある感染症患者に触れるときは手袋とガウンを着用する。ガウンは一般的なエプロンとは違って袖がある。',
         },
@@ -824,7 +845,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '空気感染対策が必要な感染症ははどれか（複数選択可）',
           choices: ["結核", "流行性耳下腺炎", "麻疹", "水痘", "風疹"],
-          answerImg: [],
+          answerImg: [mask],
           answer: '結核・麻疹・水痘',
           commentary: '空気感染とは飛沫核感染のことで、細かい飛沫からでも感染が広がる感染経路のことである。空気感染する感染症は、麻疹・結核・水痘で、播種性帯状疱疹も含まれる。風疹や流行性耳下腺炎はより大きな粒子からのみ感染する、飛沫感染に分類される。',
         },
@@ -841,8 +862,8 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '医療関連感染に関する以下の記述について、正しいのははどれか（複数選択可）',
-          choices: ["介護施設で起こったアウトブレイクも含まれる", "患者が退院後に発症した偽膜性腸炎も含まれる", "医療従事者が施設内で感染した場合も含まれる", "医療関連感染制御を担うため、病院ではICTが組織されている", "様々な対策を組み合わせながら、リスク軽減という考えのもと取り組むことが重要である"],
-          answerImg: [],
+          choices: ["介護施設で起こったアウトブレイクも含まれる", "患者が退院後に発症した偽膜性腸炎も含まれる", "医療従事者が施設内で感染した場合も含まれる", "医療関連感染制御を担うため、病院ではICTが組織されている", "様々な対策を組み合わせながら、リスク軽減という考えのもと取り組むことが重要である"],
+          answerImg: [hospitalAcquiredInfection, ICT],
           answer: 'すべて正しい',
           commentary: '介護施設や在宅医療など、医療が提供される環境が多様化していることを考慮して、「院内感染」から「医療関連感染」という言葉が使われるようになった。医療関連感染には、入院患者が入院中に感染し、退院後に発症した場合も含まれ、医療従事者が施設内で感染した場合も該当する。厚生労働省の指針により、病院では院内感染対策チーム:ICT(Infection Control Team)が病院長直属で設置されている。院内感染は対策をどれだけ行っても完全に防げるわけではないし、エビデンスが全てにあるわけではないので、リスク軽減という考え方に基づき対応していく事が大事。',
         },
@@ -860,7 +881,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '抗菌化学療法について正しいのははどれか（複数選択可）',
           choices: ["ヒトに対して副作用が少なく、細菌に対して効果が高いことをスペクトルという", "抗菌薬が体内に入ったとき、感染部位へと移行する度合いを組織移行性という", "マクロライド系抗菌薬は殺菌作用をもつ", "ペニシリンは、TDMが必要である", "抗菌薬適正使用を推進するため、病院にはASTが設置されている"],
-          answerImg: [spectorum],
+          answerImg: [spectorum, TDM, AST],
           answer: '2,4,5が正しい',
           commentary: 'スペクトルは抗菌薬が活性を持つ範囲のこと。参考：ESBL。抗菌薬は常在菌にも作用してしまうため、必ずしもスペクトルが広いほど良いわけではない。通常は治療初期に使用される。　組織移行性は薬剤の感染部位（臓器・組織）へ移行する度合いのこと。マクロライド系抗菌薬はタンパク質合成阻害薬で、殺菌ではなく静菌作用（増殖の阻害）をもつ。TDM:Therapeutic Drug Monitoringは薬剤の血中濃度をモニタリングすることで、薬物投与方法に関与する。β-ラクタム系抗菌薬は血中濃度がMIC以上となる時間が長いほど効果的で、投与する場合は分割投与を行う。AST:Antimicrobial stewardship teamは抗菌薬適正使用を管理するチームであり、医師・薬剤師などで構成される',
         },
@@ -869,7 +890,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'エンピリック治療を行うにあたって有用な情報ははどれか（複数選択可）',
           choices: ["感染している臓器", "アンチバイオグラム", "患者の年齢・性別・家族構成", "基礎疾患の有無", "患者の行動歴・食事歴"],
-          answerImg: [],
+          answerImg: [empiricTherapy, antibiogram],
           answer: 'すべて該当',
           commentary: 'エンピリック（経験的）治療とは、治療者が、医学的に厳密な根拠というよりは自分の経験を基準として治療を行うこと。原因菌が決定していない場合などに用いられる。経験的治療をするには、感染臓器と想定される病原微生物の傾向、アンチバイオグラム（ある施設、ある一定期間において分離された微生物の各種抗菌薬への感性率の表）、などのサーベイランスが必要。また、検査結果がそろってきた段階で、より狭域な抗菌薬などに変更していくことをde-escalationという。',
         },
@@ -880,14 +901,14 @@ export const useQuestionList = () => {
           choices: ["ピペラシリン", "イミペネム", "セフトリアキソン", "セフメタゾール", "セフェピム"],
           answerImg: [antibiotics],
           answer: 'すべて該当',
-          commentary: 'ピペラシリンはペニシリン系、セフメタゾールはセファマイシン系、イミペネムはカルバペネム系、セフトリアキソン・セフェピムはセフェム系のβ-ラクタム系抗菌薬',
+          commentary: 'ピペラシリンはペニシリン系、セフメタゾールはセファマイシン系、イミペネムはカルバペネム系、セフトリアキソン・セフェピムはセフェム系のβ-ラクタム系抗菌薬。β-ラクタム系抗菌薬はTAM(Time Above MIC)が重要で、分割投与が行われる。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'カルバペネム系抗菌薬で治療中、激しい下痢と腹痛が出現した。この原因として考えられる微生物ははどれか（複数選択可）',
           choices: ["Staphylococcus aureus", "Candida albicans", "Psudomonas aeruginosa", "Clostridioides difficile", "Escherichia coli"],
-          answerImg: [],
+          answerImg: [difficile],
           answer: 'Clostridioides difficile',
           commentary: 'ディフィシル(CD)による菌交代現象が原因。CDは芽胞を形成するため他の腸内細菌と比べて抗菌薬などに強く、院内感染の原因となり、激しい下痢と腹痛をもたらす。その他の選択肢は黄色ブドウ球菌、カンジダ、緑膿菌、大腸菌。大腸菌には下痢原性のものも含まれ、カルバペネム系に耐性を持つCREも存在するが、それのみでは下痢や腹痛などの症状は全く出現しない（名古屋大学より）',
         },
@@ -896,7 +917,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '次のうち、抗MRSA薬はどれか（複数選択可）',
           choices: ["アルベカシン", "コリスチン", "バンコマイシン", "ダプトマイシン", "リネゾリド"],
-          answerImg: [antibiotics],
+          answerImg: [antibiotics, MRSA],
           answer: 'アルベカシン、バンコマイシン、ダプトマイシン、リネゾリド',
           commentary: 'メチリシン耐性黄色ブドウ球菌は、mecA遺伝子を外来的に獲得することによりβ-ラクタム系が効かない。抗MRSA薬として、バンコマイシンなどのグリコペプチド系、アルベカシン（アミノグリコシド系）、リネゾリド（オキサゾリジノン系）、ダプトマイシン（環状リポペプチド系）が用いられる',
         },
@@ -914,7 +935,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '下記のうち、シンバイオティクスの組み合わせとして適しているのははどれか（複数選択可）',
           choices: ["納豆＋オクラ", "味噌＋きのこ", "ヨーグルト＋バナナ", "かき氷＋カルピス", "塩麹＋野菜"],
-          answerImg: [],
+          answerImg: [probiotics, prebiotics],
           answer: '1,2,3,5が適する',
           commentary: 'syn（ともに）biotic（プロバイオティクス/プレバイオティックス）。プロバイオティクスとプレバイオティックスをともに摂取することで双方の機能を相乗的に発揮できると考えられている。プロバイオティクスは腸に良い生きた微生物をさす言葉で、納豆・味噌・ヨーグルト・カルピス・塩麴が該当。プレバイオティックスは腸に良い難消化性食品生物を指す言葉で、オクラ・きのこ・バナナ（果物）・野菜が該当する。',
         },
@@ -932,7 +953,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '下記のうち、正しいのはどれか（複数選択可）',
           choices: ["乳酸菌の中にはデーデルライン桿菌という膣の自浄作用を示す菌がいる", "う蝕の原因菌はミティス菌群である", "歯科治療により一過性の菌血症が起こりやすくなる", "腸内細菌叢の多様性は健康維持に関与している", "ビフィズス菌は酸素があっても生育できる"],
-          answerImg: [Lactobacillus],
+          answerImg: [Lactobacillus, DoderleinBacillus],
           answer: '1,3,4,5が正しい',
           commentary: 'L.acidophilus、L.casei、ビフィズス菌などのデーデルライン桿菌は膣で多量の乳酸産生を行うことで膣内のpHを低下させ、病原細菌の侵入や定着を阻害する。う触（齲触/虫歯）の原因菌として、口腔連鎖球菌のミュータンス菌群が挙げられる。ミティス菌群は口腔連鎖球菌であるが細菌性心内膜炎に関与する。歯科治療を行うとこれらの口腔連鎖球菌が血管へ侵入しやすくなり、一過性の菌血症が起こる場合がある。乳酸菌は糖の発酵により乳酸を生成する通性嫌気性で、ビフィズス菌は糖の分解により酢酸と乳酸を生成する偏性嫌気性である。',
         },
@@ -950,7 +971,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '以下について、誤っているのはどれか（複数選択可）',
           choices: ["レーウェンフックは自作の顕微鏡で細菌の存在を初めて認識した", "ルイ・パスツールは狂犬病ワクチンを開発した", "北里柴三郎は初めて破傷風菌の純培養に成功した", "エドワード・ジェンナーは種痘法を開発した", "志賀潔はペスト菌を発見した"],
-          answerImg: [],
+          answerImg: [Shiga],
           answer: '5が誤り...志賀潔が発見したのは赤痢菌',
           commentary: 'アントニ・ファン・レーウェンフック(1632-1723)は自作の顕微鏡で細菌の存在を確認し、原虫・真菌・細菌など数多くの微生物を見出し、「微生物学の父」と呼ばれる。ルイ・パスツール(1822-1895)は加熱滅菌法・低温殺菌法・狂犬病ワクチンの開発などにより、コッホとともに「近代細菌学の開祖」と呼ばれる。エドワード・ジェンナー(1749-1832)は種痘（牛痘を天然痘の予防接種として用いる）法を開発し「近代免疫学の父」と呼ばれる。北里柴三郎(1853-1931)はコッホの弟子で破傷風菌・ペスト菌の発見・研究で有名になり、「日本細菌学の父」と呼ばれる。志賀潔(1871-1957)は赤痢菌の純培養に成功し、Shigellaと名付けた。その他、正確な病因が特定できなくても対策が可能であることを証明したゼンメルワイス（産婦人科医）も「感染制御の父」として有名。',
         },
@@ -959,7 +980,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'ロベルト・コッホが発見した菌はどれか（複数選択可）',
           choices: ["インフルエンザ菌", "コレラ菌", "炭疽菌", "赤痢菌", "結核菌"],
-          answerImg: [],
+          answerImg: [Koch],
           answer: 'コレラ菌・炭疽菌・結核菌',
           commentary: 'ロベルト・コッホ(1843-1910)は炭疽菌・結核菌・コレラ菌の純粋培養・発見に成功し、「近代細菌学の開祖」と呼ばれ、コッホの4原則を提唱した。',
         },
@@ -968,7 +989,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '以下のうち新興感染症、あるいはその原因微生物であるのはどれか（複数選択可）',
           choices: ["結核", "マラリア", "エボラウイルス", "西ナイルウイルス", "壊死性筋膜炎"],
-          answerImg: [],
+          answerImg: [emergingDiseases],
           answer: 'エボラウイルス・西ナイルウイルス',
           commentary: '新興感染症とは、最近20年間で、それまで明らかにされていなかった病原体に起因した公衆衛生上問題となるような新たな感染症のことで、ロタウイルス・エボラウイルス・レジオネラ・腸管出血性大腸菌O157・HIV・ヘリコバクターピロリ・西ナイルウイルス・SARSコロナウイルス・ヒトインフルエンザA・鳥インフルエンザ・新型コロナ・人食いバクテリアなどが該当する。　一方で再興感染症とは、既知の病原微生物が近年再び増加してきたもの、あるいは将来的に問題となる可能性がある感染症のことで、結核・壊死性筋膜炎（劇症型溶連菌）・黄熱・デング熱・マラリアなどが該当する。',
         },
