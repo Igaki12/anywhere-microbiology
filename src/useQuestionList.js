@@ -129,6 +129,10 @@ import semiCritical from './img/answer/semiCritical.png';
 import plague from './img/answer/plague.png';
 import criticalTool from './img/answer/criticalTool.png';
 import columbianExchange from './img/answer/columbianExchange.png';
+import PCR from './img/answer/PCR.png';
+import pallidumTreponemaSymptoms from './img/answer/pallidumTreponemaSymptoms.png';
+import pallidumTreponema from './img/answer/pallidumTreponema.png';
+import bloodCulture from './img/answer/bloodCulture.png';
 
 
 
@@ -1050,7 +1054,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '微生物検査に関する以下の記述のうち、正しいのはどれか（複数選択可）',
           choices: ["現在、多くの抗原検出キットはイムノクロマトグラフィー法によるものである", "グラム陽性菌とグラム陰性菌の染色性の差は、細胞壁の厚さの違いによる", "グラム陽性菌は青~紫、グラム陰性菌は赤~淡赤に染まる", "血液培養は2セット以上採取する", "PCR法による遺伝子検査でウイルスの検出はできない"],
-          answerImg: [],
+          answerImg: [GramMethod, bloodCulture, PCR],
           answer: '1,2,3,4が正しい',
           commentary: 'イムノクロマトグラフィー法はインフルエンザウイルスや新型コロナウイルスなど様々な抗原検査に使われている。コントロールラインとチェックライン（テストラインとも）の二本が並んでいて、それぞれ金コロイド標識、抗インフルエンザ抗原に対する抗体がクロマトグラフィー上に並んでいて、二本ともに標識が結合すると陽性と判定される仕組みである。　グラム染色では細胞壁のペプチドグリカン層が厚いと陽性に、薄いと陰性になる。　血液培養は主に敗血症や菌血症が疑われるタイミングで行われ、コンタミを見分けるため2セット以上採取される。検出された菌種によって、コンタミかどうかの判断は変わる。　RNAウイルスであっても、逆転写を行うことでPCRによる検出を行う事が可能。',
         },
@@ -1059,7 +1063,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '薬剤感受性試験について、正しいのはどれか（複数選択可）',
           choices: ["薬剤感受性試験において、液体希釈法ではMIC(最小発育阻止濃度)の測定が可能である", "拡散法においては、耐性であればあるほど阻止円が小さくなる", "感受性試験において、多くの菌種は30度で約20時間培養される", "感受性試験で使用する培地は、DHL培地である", "薬剤感受性はPCR法でも測定できる"],
-          answerImg: [],
+          answerImg: [disc],
           answer: '1,2,3,5が正しい',
           commentary: 'MICはMinimum inhibitory concentration（最小発育阻止濃度）の略で、様々な濃度の薬剤を含んだ液体培地で増殖できるかどうかを調べる。実習ではミュラーヒントン培地上で37度で一晩培養して行った。PCR法で薬剤耐性菌は判別できる→パルスフィールドゲル電気泳動PFGEによるグリコペプチド耐性MRSA判別',
         },
@@ -1149,9 +1153,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '梅毒について正しいのはどれか（複数選択可）',
           choices: ["原因菌であるTreponema pallidum は、螺旋状を呈するグラム陰性菌である", "原因菌であるTreponema pallidum は人工培養が未だできない", "第１期梅毒では、性的接触の3週~3ヶ月ほどで初期硬結が出現する", "第２期梅毒では心血管や神経に障害が生じる", "治療はマクロライドが第一選択である", "先天梅毒の症状の一つに鞍鼻がある"],
-          answerImg: [],
+          answerImg: [pallidumTreponema, pallidumTreponemaSymptoms, ],
           answer: '',
-          commentary: '',
+          commentary: '梅毒などのスピロヘータはグラム染色ではよく染まらないが、外膜を持つので陽性か陰性かで問われると陰性である。梅毒は試験管での人工培養ができないので、検査は血清反応で行う。感染後すぐに初期硬結などの１期梅毒症状が出た後、発熱・バラ疹など特徴的な２期梅毒期間が数年続き、最後には心血管・鞍鼻（あんび）などに慢性的な３期梅毒症状が現れる。ペニシリンの登場により梅毒での死者は激減した。妊婦が梅毒に感染している場合、経胎盤的に胎児に伝播し先天梅毒を引き起こし、Hutchinson3徴候（実質性角膜炎・内耳性難聴・Hutchinson歯）がみられることがある',
         },
         {
           detailInfo: '',
