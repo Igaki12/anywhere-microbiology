@@ -54,6 +54,18 @@ import herpes from './img/answer/herpes.png';
 import EBVAntibody from './img/answer/EBVAntibody.png';
 import CMV from './img/answer/CMV.png';
 import ChlamydiaTrachomatis from './img/answer/ChlamydiaTrachomatis.png';
+import Rubella from './img/answer/Rubella.png';
+import RSV from './img/answer/RSV.png';
+import Parvovirus from './img/answer/Parvovirus.png';
+import Papilloma from './img/answer/Papilloma.png';
+import MumpsVirus from './img/answer/MumpsVirus.png';
+import Measles from './img/answer/Measles.png';
+import JCV from './img/answer/JCV.png';
+import JapaneseEncephalitisVirus from './img/answer/JapaneseEncephalitisVirus.png';
+import influenzaVirusNA from './img/answer/influenzaVirusNA.png';
+import influenzaVirusHA from './img/answer/influenzaVirusHA.png';
+import influenzaVirusA from './img/answer/influenzaVirusA.png';
+import DengueVirus from './img/answer/DengueVirus.png';
 
 
 
@@ -1128,54 +1140,54 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '以下の文章で正しいのはどれか（複数選択可）',
           choices: ["ヒトパピローマウイルスⅡ型 : 尖圭コンジローマ", "JCウイルス : 進行性多巣性白質脳症", "ヒトパルポウイルスB19 : 胎児水腫", "BKウイルス : 亜急性硬化性全脳炎", "アデノウイルス : リンゴ病"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [Papilloma, JCV, Parvovirus],
+          answer: '2,3が正しい',
+          commentary: 'パピローマウイルスは子宮頸がんの原因として知られているが、6型と11型尖圭コンジローマの原因でもあり、型が違うので子宮頸がんワクチンが効かない。JCウイルスは初感染時にはほとんど症状が現れないが、腎臓の集合管上皮に潜伏持続感染し、免疫不全時に再活性され進行性多巣性白質脳症PMLを発症する。パルボウイルスB19は妊婦に感染すると胎児に経胎盤感染し胎児水腫を起こして流産の原因となる。亜急性硬化性全脳炎(SSPE)は麻疹ウイルス感染後6-8年で認められる。リンゴ病(小児の伝染性紅斑)はパルボウイルスによる症状。　選択肢のウイルスは全てDNAウイルス。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '風疹について正しいのはどれか（複数選択可）',
           choices: ["風疹ウイルスは人のみが感染する", "先天性風疹症候群として見られるのは、難聴、白内障、先天性心疾患である", "妊娠感染時の胎児月齢が低いほど、先天性風疹症候群の発症頻度は低い", "母親が不顕性感染の場合、先天性風疹症候群は起こらない", "弱毒生ワクチンを利用できる", "風疹ウイルスは空気感染により伝播する"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [Rubella],
+          answer: '1,2,5が正しい',
+          commentary: '風疹（Rubella)は人のみが感染し、妊婦が感染すると先天性障害を引き起こすTORCH症候群のひとつである。CRSは高度難聴・白内障・心疾患の３徴候が特徴で、妊娠早期の感染が非常に危険である。不顕性感染もある。麻疹風疹混合生ワクチン（MRワクチン）が効果的。空気感染しないので麻疹よりは感染が広がりにくいが、それでも感染力は高い。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '以下の文で正しいのはどれか（複数選択可）',
           choices: ["RSウイルスは一度感染すると、生涯抗体を保有するため、再感染は来さない", "妊婦がRSウイルスに初感染すると、児に先天性障害を起こすことがある", "流行性耳下腺炎の合併症として高度難聴をきたすことがある", "流行性耳下腺炎は、通常両側性が多い", "ヒトパルボウイルスB19は小児伝染性紅斑の原因ウイルスである", "日本脳炎ウイルスはブタが増殖動物で媒介生物は蚊である", "デング熱はヒト-ヒト感染を起こす"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [RSV, MumpsVirus, Parvovirus, JapaneseEncephalitisVirus, DengueVirus],
+          answer: '3,4,5,6が正しい',
+          commentary: 'RSウイルス(Respiratory syncytial virus)は呼吸器に感染する風邪の原因ウイルスで、抗体ができないため2歳までに100%感染、生涯にわたって再感染を繰り返す。抗体ができないため母体移行抗体の存在する乳児期前半(～生後6ヶ月）でも感染が成立し、重症化しやすい。病原性は低く先天性障害の原因にはならない。　流行性耳下腺炎（おたふくかぜ）はムンプスウイルスによって引き起こされ、悪化しウイルス血症を引き起こすと高度難聴をきたすことがある。感染しても1/4程度は無症状で、発症すると3/4程度に両側性の腫脹が見られる。　ヒトパルボウイルスB19による小児伝染性紅斑はりんご病ともよばれる。　日本脳炎は豚が増幅動物で、蚊によって伝播される。感染してもほとんどは無症状で、ヒトヒト感染しない。　デング熱はデングウイルス(1~4型)が原因の感染症で、蚊によって媒介されヒトヒト感染せず、増幅動物はいない。　選択肢のウイルスはパルボウイルス以外RNAウイルスである',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'Measles virusで正しいのはどれか（複数選択可）',
-          choices: ["不活化ワクチンによって予防可能である", "ノイラミダーゼ阻害剤による治療が可能である", "感染後、亜急性硬化性全脳炎を発症する場合がある", "頬粘膜にコブリック斑が出現する", "空気感染を起こす"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          choices: ["不活化ワクチンによって予防可能である", "ノイラミニダーゼ阻害剤による治療が可能である", "感染後、亜急性硬化性全脳炎を発症する場合がある", "頬粘膜にコブリック斑が出現する", "空気感染を起こす"],
+          answerImg: [Measles],
+          answer: '3,4,5が正しい',
+          commentary: '麻疹（Measles）は1本鎖マイナスRNAウイルスで、空気感染する強い感染力とほぼ100%発症することが特徴的である。臨床症状として口腔内頬粘膜のコプリック斑 → 耳後部から顔・四肢へ広がる紅色小斑状丘疹 → 回復期の色素沈着 がみられ、感染から数年～十数年以上後に亜急性硬化性全脳炎SSPEを発症することがある。麻疹風疹混合ワクチンは弱毒生ワクチン。　ノイラミダーゼ(NA)阻害薬で阻害されるのはインフルエンザウイルス',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'インフルエンザについて正しいのはどれか（複数選択可）',
           choices: ["A型、B型、C型ともパンデミックをおこす", "エンベロープを保有する", "アルコールでは失活しない", "シアル酸レセプターと赤血球凝集素が結合して細胞内へ侵入する", "ウイルスが細胞外へ放出する際、ノイラミニダーゼが必要である"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [influenzaVirusA, influenzaVirusHA, influenzaVirusNA],
+          answer: '2,4,5が正しい',
+          commentary: 'インフルエンザは1本鎖マイナスRNAエンベロープウイルスで、抗原変異を起こす分節構造、表面のHA（赤血球凝集）・NA（ノイラミニダーゼ）蛋白抗原が特徴的である。パンデミックを引き起こすのは多くの亜型を持ち鳥類など広い動物に自然宿主がいるA型のみである。脂質のエンベロープはアルコールなどに溶け失活しやすく、ウイルスの侵入・放出に使われるHA・NAはワクチン・抗ウイルス剤に利用される。',
         },
         {
           detailInfo: '',
           questionImg: [question202201],
           questionSentence: '下の表は株A~株Gの薬剤感受性試験結果で、数値は最小発育阻止濃度(l」g/m1)を表している。 このうちGに当てはまる耐性株を下記 1~7 よりーつ選べ。',
           choices: ["ESBL産生E.coli", "Enterobacter脱抑制株", "メタロ-β-ラクタマーゼ産生E.coli", "多剤耐性緑膿菌", "E.coli野生株", "K.pneumoniae野生株", "ペニシリナーゼ産生E.coli"],
-          answerImg: [],
-          answer: '',
-          commentary: '',
+          answerImg: [resistanceSummary, produceBetaLactamase],
+          answer: 'クラスB：メタロ-β-ラクタマーゼ産生E.coli',
+          commentary: 'カルバペネム系に耐性をもつのはクラスB(メタロ/IMP)産生/緑膿菌のみで、そのうちモノバクタムに耐性を持たないのでGはクラスB：メタロ-β-ラクタマーゼ産生E.coli。クラスBラクタマーゼはモノバクタムは分解できないが、モノバクタムはESBL・クラスC・腸球菌脱抑制株で分解できるので、クラスB+ESBL産生している場合多くの抗菌薬は使えない。緑膿菌(P.aeruginosa)はもともと薬剤耐性が強いのでクラスBを産生するだけで多剤耐性を獲得する → Fに該当。　そのほか、大腸菌野生株は第一世代セフェム系に耐性を持たないのが特徴的 → Aに該当、ペニシリナーゼ（クラスA）産生E.coliはほぼペニシリンだけ分解できる → Cに該当、クラスC(ampC)産生E.coliはカルバペネム系・第4世代セフェム系以外に耐性をもつ → 該当なし、ESBLはペニシリナーゼが強化されたもので、ESBL産生E.coli広いスペクトルを持つがCVAに阻害されセファマイシン系・カルバペネム系は分解できない → Bが該当。K.pneumoniae（肺炎桿菌）は野生株でも現在ほぼペニシリンに自然耐性をもつ → Dが該当、腸球菌(Enterobacter)は院内などでβラクタマーゼを際限なく産生する脱抑制株になるとカルバペネム系以外すべてに耐性をもつようになる → Eが該当。　　カルバペネム系に耐性→メタロ-β-ラクタマーゼ（クラスB）産生E.coliか緑膿菌確定。クラブラン酸CVAで阻害される→ペニシリナーゼ（クラスA）産生E.coliか野生株確定。',
         },
         // {
         //   detailInfo: '',
@@ -1261,7 +1273,7 @@ export const useQuestionList = () => {
         // },
       ],
     }, {
-      groupTag: "2021本試",
+      groupTag: "2021からピックアップ",
       groupContents: [{
           detailInfo: '',
           questionImg: [],
