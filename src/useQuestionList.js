@@ -81,6 +81,26 @@ import botulinumToxin from './img/answer/botulinumToxin.png';
 import bacteriophage from './img/answer/bacteriophage.png';
 import anthracisBacillus from './img/answer/anthracisBacillus.png';
 import agalactiaeStreptococcus from './img/answer/agalactiaeStreptococcus.png';
+import virusVariety from './img/answer/virusVariety.png';
+import virusInfectedCell from './img/answer/virusInfectedCell.png';
+import SFTS from './img/answer/SFTS.png';
+import rotavirusNorovirus from './img/answer/rotavirusNorovirus.png';
+import resistanceMechanism from './img/answer/resistanceMechanism.png';
+import poliovirus from './img/answer/poliovirus.png';
+import norovirus from './img/answer/norovirus.png';
+import liveVaccine from './img/answer/liveVaccine.png';
+import LegionellaPathogenicity from './img/answer/LegionellaPathogenicity.png';
+import Legionella from './img/answer/Legionella.png';
+import herpesVirus67 from './img/answer/herpesVirus67.png';
+import handHygiene from './img/answer/handHygiene.png';
+import fangusVariety from './img/answer/fangusVariety.png';
+import fangusStructure from './img/answer/fangusStructure.png';
+import experimentCulture from './img/answer/experimentCulture.png';
+import betaDGlucanFalsePositive from './img/answer/betaDGlucanFalsePositive.png';
+import betaDGlucan13 from './img/answer/betaDGlucan13.png';
+import antigenDrift from './img/answer/antigenDrift.png';
+import antiFungal from './img/answer/antiFungal.png';
+import adenoVirus from './img/answer/adenoVirus.png';
 
 
 
@@ -516,7 +536,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '薬剤耐性菌について正しいのはどれか（複数選択可）',
           choices: ["薬剤耐性出現のメカニズムには、自然耐性と獲得耐性がある", "抗菌薬使用と薬剤耐性菌に関係性はない", "世界における薬剤獲得菌に直接起因する死亡者数は、年間100万人以上である", "MRSAは通常の黄色ブドウ球菌に比較して感染力が高い", "バンコマイシン耐性黄色ブドウ球菌は、日本ではまだ分離されたことはない", "ウイルスにも抗ウイルス薬耐性が出現している"],
-          answerImg: [MultiDrugResistantPercentage],
+          answerImg: [resistanceMechanism, MultiDrugResistantPercentage],
           answer: '1,3,6が正しい',
           commentary: '薬剤耐性は細菌が備え持つ耐性機構である自然耐性、遺伝子変異を獲得することによる突然変異獲得、プラスミドなどによって外部から獲得する外来遺伝子獲得に分類され、突然変異獲得と外来遺伝子獲得は獲得耐性として扱われる。このうち、突然変異獲得は抗菌薬を使うことで淘汰圧が加わり増える耐性で、抗菌薬の正しい使用が求められる。薬剤耐性に直接起因する死亡者は127万人で、その関連師は495万人と言われる。MRSAをはじめ薬剤耐性菌の多くは生存に不必要なタンパク合成や薬剤排出を行っているため、増える能力は通常種より低いことが多い→抗菌薬を使わなければ耐性菌は自然に減少する。黄色ブドウ球菌はペニシリンに自然耐性をもつほか、メチシリンに耐性を持つMRSA、バンコマイシンに耐性をもつVRSAが猛威を振るっており、そのうちMRSAは日本で特に多く（60%/５類定点）見つかっているが、VRSAは2017年時点で日本では一切報告されていない（0%/５類全数）。MRSAの治療にはバンコマイシンが使われるため、このような耐性菌の出現は治療を難しくする。ウイルスも突然変異により薬剤耐性を獲得するため、特にHIVでは多剤服用がゴールドスタンダードになっている。現在有効と言える坑ウイルス剤はHIV、ヘルペスウイルス、インフルエンザウイルス。',
         },
@@ -561,7 +581,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'ウイルス感染細胞に起こりうる変化でないのはどれか（複数選択可）',
           choices: ["ガン化", "細胞表面の変化", "封入体の形成", "細胞変性効果", "インターフェロン産生低下"],
-          answerImg: [],
+          answerImg: [virusInfectedCell],
           answer: 'インターフェロン産生低下',
           commentary: 'ウイルスの中には体細胞DNAに遺伝子を組み込んだり慢性的な炎症を引き起こすことで発ガンを誘導するウイルス（EBウイルス→リンパ腫など、HPV→子宮頸がん、HAV・HBV・HCV→A型・B型・C型肝炎など）もある。狂犬病ウイルスやサイトメガロウイルスに感染すると、特徴的な封入体が形成される。ウイルスを感知した感染細胞は一般的に抗ウイルス状態を誘導するインターフェロン産生を増加させる。この機構はインターフェロンを使った治療:PEG-IFNなどに活用されている。その他、ウイルス感染細胞は細胞変性効果CPR:cytopathic effect(細胞の円形化・細胞融解・細胞融合・単核の巨細胞化)により細胞死を誘導したり、細胞表面に赤血球凝集エンベロープや細胞膜融合型エンベロープを発現することで細胞障害性T細胞による排除を誘導したりする。',
         },
@@ -570,7 +590,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '我が国で使用されている生ワクチンはどれか（複数選択可）',
           choices: ["BCG", "麻疹", "コレラ", "日本脳炎", "インフルエンザ"],
-          answerImg: [],
+          answerImg: [liveVaccine],
           answer: 'BCG、麻疹',
           commentary: '弱毒生ワクチンは、毒性や病原性が低下した生きた微生物を用いるワクチン。副作用が大きいが、細胞性・液性免疫両方が賦活化され、長期間の効果を得られる。代表的な生ワクチンとして、BCG・麻疹ワクチン・風疹ワクチン・水痘ワクチン・ムンプスワクチン・黄熱ワクチン・ロタウイルスワクチンなどが挙げられる。一方で不活化ワクチンは不活化されているため安全性が高いが、細胞性免疫の誘導は低いため複数回の投与が必要で免疫不全患者や妊婦にも投与が可能である。代表的な不活化ワクチンとして、日本脳炎ワクチン・A型肝炎ワクチン・インフルエンザワクチン・B型肝炎ワクチン・コンジュゲートワクチンが挙げられる。コレラワクチンは輸入ワクチンをトラベラーズワクチンとして利用できる、経口不活化ワクチン。',
         },
@@ -579,7 +599,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'レトロウイルスに該当するものとして正しいのはどれか（複数選択可）',
           choices: ["急性感染", "逆転写酵素", "DNAウイルス", "ヒトのがんウイルス", "ヒトT細胞白血病ウイルス"],
-          answerImg: [],
+          answerImg: [virusVariety],
           answer: '逆転写酵素、ヒトのがんウイルス、ヒトT細胞白血病ウイルス',
           commentary: 'レトロウイルス科にはヒトT細胞白血病ウイルス(HTLV-1)やヒト免疫不全ウイルス(HIV)が分類され、いずれも1本鎖RNAを逆転写し細胞DNAに組み込むことによって増殖し、CD4+T細胞に感染して長い期間をかけて免疫不全を誘導する。HTLV-1はプロウイルスの組み込まれたCD4+T細胞を腫瘍化する。',
         },
@@ -588,7 +608,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '五類感染症に該当するものはどれか（複数選択可）',
           choices: ["バンコマイシン耐性腸球菌", "ペニシリン耐性肺炎球菌", "メチシリン耐性黄色ブドウ球菌", "多剤耐性アシネトバクター", "ESBL産生腸内細菌科", "カルバペネム耐性腸内細菌科"],
-          answerImg: [],
+          answerImg: [MultiDrugResistantPercentage],
           answer: 'ESBL産生腸内細菌科以外すべて該当',
           commentary: '5類感染症には全数把握の感染症と特定の病院が報告する定点把握の感染症があり、MRSA(メチシリン耐性黄色ブドウ球菌),PRSP(ペニシリン耐性肺炎球菌),MDRP(多剤耐性緑膿菌)が5類定点、VRSA(バンコマイシン耐性黄色ブドウ球菌),VRE(バンコマイシン耐性腸球菌),MDRA(多剤耐性アシネトバクター),CRE(カルバペネム耐性腸内細菌科)が5類全数に分類される。比較的分離頻度の高い感染症は定点である傾向にある。',
         },
@@ -606,16 +626,16 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '感染様式について正しいのはどれか（複数選択可）',
           choices: ["水痘は性交感染する", "ポリオウイルスは発症に媒介動物が関与する", "RSウイルス感染症は母子感染症を引き起こす", "ノロウイルスは血液を介して院内感染が起こる", "重症熱性血小板減少症候群(SFTS)は、主にマダニに噛まれることにより感染する"],
-          answerImg: [],
+          answerImg: [VZV, poliovirus, RSV, norovirus, SFTS],
           answer: '重症熱性血小板減少症候群(SFTS)は、主にマダニに噛まれることにより感染する',
-          commentary: '水痘はヘルペスウイルス科のDNAウイルスで、伝染力が極めて強く空気感染・接触感染・飛沫感染により感染する。ポリオウイルスはヒトのみに感染し、糞口感染によって感染する。RSウイルス(Respiratory syncytial virus)は強い感染力で、母体移行抗体の存在する乳児期前半でも胎児が感染するが、感染経路は呼吸器からである。ノロウイルス患者は激しい嘔吐や下痢を引き起こし、接触感染や飛沫感染から感染する、非常に感染力の強いウイルス。SFTSはダニ媒介性感染症で、日本ではフタトゲチマダニに噛まれることにより感染する。',
+          commentary: '水痘(VZV)はヘルペスウイルス科のDNAウイルスで、伝染力が極めて強く空気感染・接触感染・飛沫感染により感染する。ポリオウイルスはヒトのみに感染し、糞口感染によって感染する。RSウイルス(Respiratory syncytial virus)は強い感染力で、母体移行抗体の存在する乳児期前半でも胎児が感染するが、感染経路は呼吸器からである。ノロウイルス患者は激しい嘔吐や下痢を引き起こし、接触感染や飛沫感染から感染する、非常に感染力の強いウイルス。SFTSはダニ媒介性感染症で、日本ではフタトゲチマダニに噛まれることにより感染する。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'インフルエンザウイルスについて、誤っているものはどれか（複数選択可）',
           choices: ["DNAウイルスなので抗原変異を起こしにくい", "表面に赤血球凝集素をもつ", "受容体は気管上皮のシアル酸である", "B型インフルエンザとC型インフルエンザはヒトだけを宿主とする", "季節性インフルエンザは抗原連続変異によりHAやNAが変異する", "エンベロープを持つため、消毒薬などに抵抗性が高い"],
-          answerImg: [],
+          answerImg: [influenzaVirusA, influenzaVirusHA, antigenDrift],
           answer: '1,4,6が誤り',
           commentary: 'インフルエンザウイルスは1本鎖(-鎖)RNAウイルスで、表面に赤血球凝集素(HA)を持つ。これが上気道粘膜細胞のシアル酸受容体と結合することで細胞内に侵入する。B型インフルエンザはヒトのみを宿主とするが、C型はヒトとブタ、A型は渡り鳥から豚や鯨まで幅広い哺乳類や鳥類を宿主にもつ。インフルエンザウイルスの抗原変異には突然変異による季節性の抗原連続変異(antigen drift)と遺伝子再集合による全く新しい抗原不連続変異(antigen shift)がある。いずれも表面のHAやNA抗原の変化である。インフルエンザウイルスはエンベロープを持つため、熱・酸・界面活性剤で失活しやすい。',
         },
@@ -624,7 +644,7 @@ export const useQuestionList = () => {
           questionImg: [question202202],
           questionSentence: '図は我が国のRSウイルス患者数の推移を示している。2021年に流行が認められたが、同様に2022年において我が国でその患者数が増大することが予想される感染症ははどれか（複数選択可）',
           choices: ["狂犬病", "水痘・帯状発疹", "エボラ出血熱", "インフルエンザウイルス", "EBウイルス", "ヒトヘルペスウイルス"],
-          answerImg: [],
+          answerImg: [antigenDrift],
           answer: 'インフルエンザウイルス',
           commentary: 'RSウイルス(Respiratory syncytial virus)は主に呼吸器を通して感染が伝播する。狂犬病は長らく日本で出ていない上、ワクチンが普及している。水痘・帯状発疹ウイルスもワクチン接種が定期接種になってから患者数は減少傾向。エボラ出血熱は空気感染する中で最も病原性が高く、1類感染症に分類される。インフルエンザウイルスは毎年流行している。EBウイルスは95%の人々が成人までに感染する（ほとんどは風邪のような症状で治癒する）特徴から、患者数が2022年に増大するとは考えにくい。ヘルペスウイルスは1型が飛沫感染・接触感染、2型が性的感染・母子感染により伝播し、日本人の1割以上がすでに感染している（高齢ほど感染率が高い）と言われている。　これらを考慮するとインフルエンザな気がするが、感染を予想させる問題になんの意味があるのか、逆に問いたい。',
         },
@@ -642,7 +662,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'DHL寒天培地に含まれる細菌培養の選択性を示すための物質はつぎのうちはどれか（複数選択可）',
           choices: ["胆汁酸塩", "酵母抽出物", "塩化ナトリウム", "ニュートラルレッド", "フェノールレッド"],
-          answerImg: [],
+          answerImg: [experimentCulture],
           answer: '胆汁酸塩',
           commentary: 'DHL寒天培地は胆汁酸塩（デオキシコール酸）・乳糖・中性紅（ニュートラルレッド）などが含まれている。デオキシコール酸はグラム陽性菌の発育を抑制する作用を持つ中性〜アルカリ性の物質。乳糖分解菌の場合は、乳糖から分解されて生じた酸によって胆汁酸が析出し、中性紅と反応して色が変化する。フェノールレッドや塩化ナトリウムはマンニット食塩寒天培地の構成物質。酵母抽出物はLB寒天培地の構成物質。',
         },
@@ -651,7 +671,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '実習で扱った細菌として正しいのはどれか（複数選択可）',
           choices: ["大腸菌はグラム染色をすると、赤色（ピンク色）の球菌で観察された", "黄色ブドウ球菌を過酸化水素水と混ぜると激しく泡が発生した", "表皮ブドウ球菌(S.epidermidis)をウサギプラズマに入った試験管に接種し、一晩37°Cで培養すると凝固した", "CTX(Cefotaxime)に耐性を示した腸内細菌科において、CTXC(Cefotaxime/Clavulanate)の阻止円が≧5mm拡張していればESBLと判定する", "CFX(Cefoxitin)に耐性を示した黄色ブドウ球菌について、MRSAと判定する。"],
-          answerImg: [],
+          answerImg: [ESBL, MRSA],
           answer: '2,4,5が正しい',
           commentary: '大腸菌E.coliはグラム陰性通性嫌気性桿菌で、染色では青色に染まる。黄色ブドウ球菌はカラターゼを持つ（ことにより活性酸素種に耐える）ので、過酸化水素水を水と酸素に変える。表皮ブドウ球菌はコアグラーゼを持っていないので、ウサギプラズマは凝固しない。黄色ブドウ球菌はコアグラーゼをもち、病原性が比較的高い。ESBL（基質拡張性βラクタマーゼ）はクラブラン酸CVAにより作用を阻害されるので、ESBLならCTXCの阻止円はCTXより阻止円が大きくなる。',
         },
@@ -660,7 +680,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '培地について正しいことを示しているのはどれか（複数選択可）',
           choices: ["大腸菌や肺炎球菌は、DHL寒天培地上で赤色のコロニーであることが多い", "マンニット食塩寒天培地に対して、黄色ブドウ球菌は黄色を呈する", "マンニット食塩寒天培地にはニュートラルレッドが含まれる", "ミュラーヒントン寒天培地は選択制がなく、薬剤感受性試験に用いた", "手掌の消毒効果を確認するために、SCDLP寒天培地を用いた"],
-          answerImg: [],
+          answerImg: [experimentCulture],
           answer: '2,4,5が正しい',
           commentary: '大腸菌や肺炎桿菌はDHL寒天培地の乳糖を分解してニュートラルレッドの色を呈する。黄色ブドウ球菌はマンニット（糖）を分解して培地を酸性化し、フェノールレッドによる赤色から黄色へと変化させる。ミュラーヒントン寒天培地に含まれるデンプンは寒天中に含まれる発育阻害物質を吸着する作用があり、薬剤以外の物質による発育抑制を低減する。',
         },
@@ -669,7 +689,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '肺炎について誤っているものはどれか（複数選択可）',
           choices: ["高齢者の肺炎は誤嚥を元に発症することが多い", "現在我が国では肺炎による死亡者の95%以上が高齢者で占められている", "レジオネラ感染症では、ほとんどが急激に重症化するレジオネラ肺炎を発症するため、自然治癒することはない", "肺炎の原因として、感染性のもの（細菌性・ウイルス性・真菌など）と非感染性のもの（間質性肺炎）が挙げられる", "肺炎球菌ワクチンの成分は莢膜多糖体である"],
-          answerImg: [],
+          answerImg: [LegionellaPathogenicity, pneumoniaeStreptococcus],
           answer: '3が誤り...ほとんどは自然治癒する',
           commentary: '肺炎は日本人の死因第4位であるが、その95%以上は65歳以上の高齢者である。肺炎の80%以上は誤嚥性肺炎が占め、そのほとんどは飲み込む能力の衰えた高齢者である。レジオネラ肺炎はほとんどが軽傷で数日で治ることが多いが、高齢者などでは急激に重症となり死亡することがある4類感染症。肺炎は感染症に起因するものと、生活習慣に起因する非感染性のものが挙げられ、喫煙が重要な因子となっている。肺炎球菌は莢膜に覆われているので、莢膜多糖体に加えてジフテリア毒素などのアジュバンドを含んだものがワクチンとして使われている。',
         },
@@ -678,7 +698,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '呼吸器疾患(肺炎）の原因となるウイルスはどれか（複数選択可）',
           choices: ["ロタウイルス", "ノロウイルス", "ライノウイルス", "ヒトヘルペスウイルス6型", "アデノウイルス"],
-          answerImg: [],
+          answerImg: [rotavirusNorovirus, herpesVirus67, adenoVirus],
           answer: 'ライノウイルス',
           commentary: 'ロタウイルス・ノロウイルスはともに消化管に感染し下痢の症状が特徴的なウイルスである。ライノウイルスは冬から春にかけて呼吸器に感染し鼻風邪症状を引き起こす。ヒトヘルペスウイルス6型・7型(HHV-6/7)は唾液を介してTリンパ球に感染する二本鎖線状DNAウイルス。アデノウイルスは消化に抵抗し腸管で増殖するウイルス。',
         },
@@ -687,7 +707,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '院内感染が起きた場合、対処するべきこととして正しいのははどれか（複数選択可）',
           choices: ["院内感染委員会に報告", "発生の原因究明(感染源・感染経路など)", "二次感染予防（定期的な清掃・手指消毒の徹底）", "多くが飛沫感染によるため、接触感染防止策を講じる必要はない", "感染拡大防止としてワクチンを接種する"],
-          answerImg: [],
+          answerImg: [handHygiene],
           answer: '院内感染委員会に報告、　発生の原因究明(感染源・感染経路など)、　二次感染予防（定期的な清掃・手指消毒の徹底）',
           commentary: '',
         },
@@ -705,7 +725,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '真菌の構造について正しいものはどれか（複数選択可）',
           choices: ["真菌には細胞壁はない", "β-D グルカンは(1,3)β-グルカンと、(1,6)β-グルカンが存在し臨床的に検査が可能なのは(1,6)β-グルカンである", "β-Dグルカンはセルロースを用いた透析、アルブミン製剤、アガリスクの大量摂取により偽陽性が出現する", "細胞膜にはエルゴステロールという成分が含まれており、薬剤としてはエルゴステロール合成を阻害する薬剤が存在する", "深在性真菌症は減少傾向にある"],
-          answerImg: [],
+          answerImg: [fangusStructure, betaDGlucan13, betaDGlucanFalsePositive],
           answer: '3,4が正しい',
           commentary: '真菌は細胞壁をもつ真核生物に属する微生物で、ミトコンドリアをもち細胞壁に真菌特異的なβ-D-グルカンを持つ。β-D-グルカンは深在性真菌感染症のスクリーニング検査として(1→3)-β-D-グルカンが臨床的に利用されている。β-D-グルカンはほぼ全ての病原真菌を検査できるバイオマーカーであるが、この検査だけでは禁酒の同定ができず、セルロース素材の透析膜を用いた血液透析・アルブミンなどの血液製剤・敗血症患者・多発性骨髄腫・アガリクスなどのキノコ類の大量摂取により偽陽性が出てしまうことに注意が必要。また、真菌は細胞膜にエルゴステロールを含んでいて、アゾール系抗真菌薬(PSCZ,VRCZなど)はエルゴステロールの合成を阻害することで作用する。真菌症は白癬菌を除いて、免疫状態の低下した患者にのみ発症することが多いが、免疫抑制剤の使用に伴い深在性真菌症は増加傾向にある。特にアスペルギルス症・カンジダ症が多い。',
         },
@@ -714,7 +734,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '次のうち、正しい組み合わせはどれか（複数選択可）',
           choices: ["酵母 - Fusarium spp.", "酵母 - Candida tropicalis", "糸状菌 - Aspergillus fumigatus", "糸状菌 - Cryptococcus gattii", "二形成真菌 - Candida albicans"],
-          answerImg: [],
+          answerImg: [fangusVariety],
           answer: '2,3,5が正しい',
           commentary: '真菌は栄養細胞の形態によって、糸状菌・酵母菌・二形性真菌に分類される。Fusarium(フサリウム属)は、糸状菌に分類される真菌である。Candida tropicalis(カンジダ属でC.albicans以外)はカンジダ症の原因となる酵母菌に分類される真菌である。Aspergillus fumigatus(アスペルギルス属)はアスペルギルス症の原因となる最も代表的な糸状菌に分類される真菌である。Cryptococcus gattii(クリプトコッカス属)は、クリプトコッカス症(の中でも輸入真菌症)の原因となる酵母菌に分類される真菌である。Candida albicansは二形性真菌に分類される真菌である。',
         },
@@ -723,7 +743,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '抗真菌薬として正しい組み合わせはどれか（複数選択可）',
           choices: ["エルゴステロール合成阻害 - リポソーマルアムホテリシンB", "DNA合成阻害 - フルシトシン", "(1,3) β-Dグルカン合成阻害 - ポリコナゾール", "エルゴステロール作用、細胞膜破壊 - ミカファンギン", "エルゴステロール合成阻害 - カスポファンギン"],
-          answerImg: [],
+          answerImg: [antiFungal],
           answer: '2が正しい',
           commentary: '抗真菌薬には真菌細胞膜のエルゴステロールの合成を阻害するアゾール系、エルゴステロールに直接作用して細胞膜を破壊するポリエン系、細胞壁の1,3-β-D-グルカンの合成を阻害するキャンディン系、DNAの合成を阻害するピリミジン系が存在する。このうちアムホテリシンB(AMPHB)はポリエン系、フルシトシンはピリミジン系、ポリコナゾールはアゾール系、ミカファンギン(MCFG)はキャンディン系、カスポファンギンはキャンディン系に分類される。アムホテリシンBは抗真菌スペクトルが広いことが特徴。',
         },
