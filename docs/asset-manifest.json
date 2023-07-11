@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.82985c8c.js",
+    "main.js": "/anywhere-microbiology/static/js/main.ce2d8c0c.js",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/question202202.png": "/anywhere-microbiology/static/media/question202202.1af22f3c70207fab3a7c.png",
     "static/media/tuberculosis.png": "/anywhere-microbiology/static/media/tuberculosis.6b0c51573575c2a7dbaf.png",
@@ -70,10 +70,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.82985c8c.js.map": "/anywhere-microbiology/static/js/main.82985c8c.js.map"
+    "main.ce2d8c0c.js.map": "/anywhere-microbiology/static/js/main.ce2d8c0c.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.82985c8c.js"
+    "static/js/main.ce2d8c0c.js"
   ]
 }
