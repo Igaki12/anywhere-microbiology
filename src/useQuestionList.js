@@ -66,6 +66,21 @@ import influenzaVirusNA from './img/answer/influenzaVirusNA.png';
 import influenzaVirusHA from './img/answer/influenzaVirusHA.png';
 import influenzaVirusA from './img/answer/influenzaVirusA.png';
 import DengueVirus from './img/answer/DengueVirus.png';
+import VRE from './img/answer/VRE.png';
+import SAPathogenicity from './img/answer/SAPathogenicity.png';
+import PPE1 from './img/answer/PPE1.png';
+import pneumoniaeStreptococcus from './img/answer/pneumoniaeStreptococcus.png';
+import perfringensClostridium from './img/answer/perfringensClostridium.png';
+import mitochondriaNucleus from './img/answer/mitochondriaNucleus.png';
+import Listeria from './img/answer/Listeria.png';
+import GramDifferences from './img/answer/GramDifferences.png';
+import facultativeAnaerobic from './img/answer/facultativeAnaerobic.png';
+import enterotoxin from './img/answer/enterotoxin.png';
+import difficile from './img/answer/difficile.png';
+import botulinumToxin from './img/answer/botulinumToxin.png';
+import bacteriophage from './img/answer/bacteriophage.png';
+import anthracisBacillus from './img/answer/anthracisBacillus.png';
+import agalactiaeStreptococcus from './img/answer/agalactiaeStreptococcus.png';
 
 
 
@@ -375,7 +390,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '外毒素の中で耐熱性のエンテロトキシンを放出する菌はどれか（複数選択可）',
           choices: ["黄色ブドウ球菌", "ウェルシュ菌", "サルモネラ菌", "セレウス菌", "大腸菌"],
-          answerImg: [],
+          answerImg: [enterotoxin, perfringensClostridium, ETEC],
           answer: '黄色ブドウ球菌、大腸菌',
           commentary: '黄色ブドウ球菌は外毒素：ブドウ球菌エンテロトキシン（耐熱性の腸管毒→TSST）を産生し、主におにぎりや弁当による食中毒の原因となる。ウェルシュ菌は芽胞により加熱に耐えシチューやスープなどで感染型食中毒を引き起こす。サルモネラ菌は経口感染により感染型食中毒を引き起こす。セレウス菌は下痢毒を産生するが、易熱性。大腸菌はさまざまな毒素を産生するが、腸管毒素原生大腸菌(ETEC)はビブリオ毒素と類似した耐熱性毒素ST(heat-stable toxin)を産生する',
         },
@@ -384,7 +399,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'グラム陰性菌に存在し、グラム陽性菌に存在しないのはどれか（複数選択可）',
           choices: ["莢膜", "線毛", "リポ多糖", "ポーリン", "プラスミド", "ペプチドグリカン"],
-          answerImg: [],
+          answerImg: [GramDifferences],
           answer: 'リポ多糖、ポーリン',
           commentary: '細胞膜・細胞壁・莢膜・線毛・鞭毛は細菌の基本構造で、グラム陽性・陰性に関わらず広く分布している（鞭毛はグラム陰性菌に多い）。リポ多糖やリポ脂質はグラム陰性菌特有の外膜の主成分。ペプチドグリカンはグラム染色で染色される層で、グラム陽性菌の方が厚い。プラスミドは染色体外の環状DNAのことで、グラム陰性・陰性菌の両方で存在する。',
         },
@@ -402,7 +417,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '細菌について誤っているものは次のうちどれか（複数選択可）',
           choices: ["DNAに含まれる塩基はグアニン・アデニン・シトシン・チミンである", "プラスミドは細胞内で独立して存在・増殖できる", "染色体は核膜内にある", "細胞内で増殖したファージは成熟すると、溶菌酵素により菌体を壊して放出される", "プロモーターはリプレッサーと結合することで、構造遺伝子群の発現を抑制する"],
-          answerImg: [],
+          answerImg: [mitochondriaNucleus, bacteriophage],
           answer: '3が誤り...細菌は核膜なし',
           commentary: 'プラスミドはゲノムDNAとは独立して存在・複製でき、細菌の生存にとって必須ではないDNA分子であるが、毒素産生や薬剤耐性に関与しておりプラスミドを介した耐性遺伝子の拡散（接合伝達）が問題となっている。遺伝子の導入はファージによっても起こっていて（形質導入）、細胞内で増殖したファージが成熟し、溶菌酵素により菌体を壊して放出される。リプレッサーはオペレーター部位に結合して構造遺伝子群の発現を抑制していて、プロモーターはオペレーターを含み転写に関与する。',
         },
@@ -411,7 +426,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'ファージのDNAが細菌の染色体DNAに組み込まれた状態をなんというか（複数選択可）',
           choices: ["カプシド", "ビリオン", "プロファージ", "マクロファージ", "トランスポゾン"],
-          answerImg: [],
+          answerImg: [bacteriophage],
           answer: 'プロファージ',
           commentary: 'ファージのDNAが、細菌のゲノムに組み込まれた（→溶原化した）状態',
         },
@@ -420,7 +435,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '通性嫌気性の説明として正しいのはどれか（複数選択可）',
           choices: ["酸素が存在しないと増殖できない", "酸素が存在すると増殖できない", "酸素の存在の有無にかかわらず増殖できる", "二酸化炭素が存在すると増殖できない", "二酸化炭素が存在すると増殖できる"],
-          answerImg: [],
+          answerImg: [facultativeAnaerobic],
           answer: '酸素の存在の有無にかかわらず増殖できる',
           commentary: '例えばグラム陽性球菌・リステリア・ブドウ糖発酵性グラム陰性桿菌（大腸菌など）は、通性嫌気性に分類される。通性嫌気性生物では、酸素が存在する場合には好気的呼吸によって、酸素がない場合には発酵によってエネルギーを得られるようにする。',
         },
@@ -429,7 +444,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'グラム陽性桿菌について正しいのはどれか（複数選択可）',
           choices: ["グラム陽性桿菌のうち、リステリア属は嫌気性菌である", "破傷風菌に感染する場合、咽頭・扁桃に白から灰白色の偽膜形成が見られる", "人が感染する炭疽菌は95%が皮膚炭疽であり、家畜を扱う人で発症することが多い", "ボツリヌス菌は芽胞を形成する", "ウェルシュ菌は嫌気性芽胞形成菌であり、シチューなどで食中毒をきたす"],
-          answerImg: [],
+          answerImg: [Listeria, anthracisBacillus, botulinumToxin, perfringensClostridium],
           answer: '1,3,4,5が正しい',
           commentary: 'リステリアはグラム陽性桿菌で通性嫌気性菌。破傷風菌はグラム陽性偏性嫌気性菌で、土の付いたor異物がある傷から芽胞が発芽して破傷風毒テタノスパスミンを産生して骨格筋の強直性痙攣を起こす。炭疽菌は95%が皮膚炭疽であり、家畜からの感染が多い。ボツリヌス菌は芽胞を形成し毒素型食中毒の原因となる。ウェルシュ菌は偏性嫌気性芽胞形成菌であり、十分に混ざっていないシチューなどで感染型食中毒を引き起こす。破傷風菌・ボツリヌス菌・ウェルシュ菌はいずれもクロストリジウム属であり、偏性嫌気性・芽胞形成など共通点が多い。咽頭・扁桃部の白色から灰白色の偽膜形成は主にジフテリアの特徴',
         },
@@ -438,7 +453,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '菌交代現象によって発症するのはどれか（複数選択可）',
           choices: ["腸結核", "カンピロバクター腸炎", "クリプトスポリジウム症", "サイトメガロウイルス食道炎", "クロストリジウム・ディフィシル腸炎"],
-          answerImg: [],
+          answerImg: [difficile],
           answer: 'クロストリジウム・ディフィシル腸炎',
           commentary: '抗菌薬投与により、腸内の常在菌叢が乱れ、腸内の常在菌叢が乱れることにより発症する。←芽胞形成で抗菌薬に対して生き残りやすいため。入院中の院内感染の原因でもある',
         },
@@ -447,7 +462,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '体育の授業中にサッカーをしていた際、転倒し擦り傷を負った。４日後、発語・構音障害、痙笑などの症状が出現した。上記の症状を起こした原因菌として最も考えられるのはどれか',
           choices: ["ウェルシュ菌", "ボツリヌス菌", "破傷風菌", "サルモネラ菌", "ジフテリア菌"],
-          answerImg: [],
+          answerImg: [toxin],
           answer: '破傷風菌',
           commentary: '擦り傷から感染しやすいのは破傷風菌。ウェルシュ菌やボツリヌス菌は主に食中毒の原因菌、サルモネラ菌は経口感染により発症する。',
         },
@@ -456,7 +471,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '黄色ブドウ球菌が関連する病原性として当てはまるものはどれか（複数選択可）',
           choices: ["食中毒", "毒素性ショック症候群", "表皮剥脱性皮膚炎", "化膿性炎症", "アトピー性皮膚炎"],
-          answerImg: [],
+          answerImg: [SAPathogenicity],
           answer: '全て当てはまる',
           commentary: '黄色ブドウ球菌は耐熱性腸管毒を産生し食中毒の原因となるほか、スーパー抗原であるTSST-1による毒素性ショック症候群、表皮剥奪毒素EFTによるブドウ球菌性表皮剥離症候群SSSS、ロイコシジンPVLによって白血球などを障害することによる化膿性炎症、皮膚の常在菌でありながら毒素を産生するためアトピー性皮膚炎の原因にもなっていると考えられている。',
         },
@@ -474,7 +489,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '肺炎球菌について誤っているものはどれか（複数選択可）',
           choices: ["食中毒の原因菌としては五番目に多い", "成人の市中肺炎で最も多い起炎菌である", "肺炎から菌血症を合併しやすい", "血液寒天培地上でβ溶血を示す", "予防として生ワクチンが小児にたいして用いられる"],
-          answerImg: [],
+          answerImg: [pneumoniaeStreptococcus],
           answer: '2,3が正しい',
           commentary: '食中毒の原因菌は、アニサキス43.5%、カンピロバクター20.5%、ノロウイルス11.2%、サルモネラ3.7%、ウェルシュ菌2.6%、ブドウ球菌2.4%。肺炎球菌は市中肺炎の代表的起因菌。侵襲性肺炎球菌感染症は髄膜炎や菌血症など重症化し、死亡率が高い。血液寒天培地ではα溶血性（部分溶血）を示す。肺炎球菌は莢膜を持ち免疫を獲得しにくいので、莢膜成分にアジュバンド（ジフテリア毒素）を配合した不活化ワクチンが用いられる。',
         },
@@ -483,7 +498,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'メチシリン耐性黄色ブドウ球菌(MRSA)について正しいのはどれか（複数選択可）',
           choices: ["院内感染の主要な起炎菌の一つである", "vanA遺伝子の獲得により耐性化する", "メチシリン以外のβラクタム系抗菌薬にも耐性を示す", "MRSAの治療薬として、バンコマイシンが有効である", "MRSAは人のみならず、家畜やペットからも検出される"],
-          answerImg: [],
+          answerImg: [MRSA],
           answer: '1,3,4,5が正しい',
           commentary: 'MRSAは、mecAがコードする親和性の低いPBP2’を獲得したことによりメチシリン耐性を持つ。βラクタム系薬によってPBPを阻害してもPBP2’が機能を補ってしまうため、βラクタム系薬にも耐性を示す。院内感染の代表的な起因菌である。治療薬としてバンコマイシンなどグリコペプチド系・アルベカシン（アミノグリコシド系）リネゾリド・ダプトマイシンなどが用いられる。日本では50%程度と特に多い。比較的少ないオランダでも、家畜関連MRSA:LA-MRSAが蔓延した。',
         },
@@ -492,7 +507,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '新生児髄膜炎患者の髄液からグラム陽性連鎖球菌が分離された。起因菌として考えられるのはどれか（複数選択可）',
           choices: ["Staphylococcus epidermidis", "Streptococcus agalactiae", "Enterococcus faecalis", "Peptococcus niger", "Peptostreptococcus anaerobius"],
-          answerImg: [],
+          answerImg: [agalactiaeStreptococcus],
           answer: 'Streptococcus agalactiae',
           commentary: 'B群β溶血性連鎖球菌(Streptococcus agalactiae)は、細胞壁の多糖体抗原性に基づき分類されるLancefieldの分類でgroup Bに分類された連鎖球菌。咽頭部・直腸・膣の常在菌で、産道感染により新生児髄膜炎や新生児敗血症の原因となることがある。Staphylococcusは球菌（表皮ブドウ球菌）、Enterococcusは腸球菌。',
         },
@@ -510,16 +525,16 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '70歳女性、近くの大学病院で慢性腎不全の治療を受けていた。軽快に伴い退院し、以後の加療 を行っていただきたい旨が書かれた紹介状を持って受診された。入院中に便からバンコマイシン耐性腸球菌(VRE)が検出されたと記載されている。入院中から現在まで下痢や発熱は認めていない。適切な対応ははどれか（複数選択可）',
           choices: ["受診の際は常にマスクを着用させる", " 診察の際はガウンを着用する", "トイレのあとはアルコールで手指消毒してもらう", "VRE対策ができないため大学病院へ戻す", "リネゾリドを内服させる"],
-          answerImg: [],
+          answerImg: [VRE, PPE1],
           answer: '2,3,5が正しい',
-          commentary: '腸球菌は腸管常在菌で、病原性は低いものの院内感染の問題がある。予防には接触感染予防策が重要。治療にはリネゾリドが使用される。',
+          commentary: '腸球菌は腸管常在菌で、病原性は低いものの院内感染の問題がある。腸球菌は飛沫感染しないので、予防には接触感染予防策（手袋・ガウン・手洗い）が重要。治療にはオキサゾリジノン系抗菌薬のリネゾリドが使用される。',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: 'バンコマイシン耐性腸球菌に有効な薬はどれか（複数選択可）',
           choices: ["リネゾリド", "コリスチン", "バンコマイシン", "テイコプラニン", "アミノグリコシド"],
-          answerImg: [],
+          answerImg: [VRE],
           answer: 'リネゾリド',
           commentary: 'バンコマイシンはD-Ala-D-Ala末端に結合し、PBPなどの酵素が認識できないようにして細胞壁合成を阻害するが、VREではD-Ala-D-Lacに変化していてバンコマイシンが結合できない。腸球菌の多くがアミノグリコシド系薬に自然耐性を持っているため、治療にはリネゾリド、ダプトマイシンが治療薬として使われる。テイコプラニンはバンコマイシンと同じグリコペプチド系抗菌薬（VanB型であればテイコプラニン感性）、コリスチンはポリペプチド系でMDRP治療の第一選択薬。',
         },
@@ -530,14 +545,14 @@ export const useQuestionList = () => {
           choices: ["抗菌薬の過剰投与・過剰処方", "新しい抗菌薬の開発の遅れ", "MRSAやVREの耐性菌が発生する要因は、抗菌薬の使用による", "医療機関における不十分な院内感染対策", "MRSAなど動物由来とされるものもある"],
           answerImg: [MRSAFromDrugAbuse, MRSALA],
           answer: '1,3,5が該当',
-          commentary: '抗菌薬の過剰使用(overuse)と誤用(misuse)が耐性菌選択圧を高める。新しい抗菌薬の開発の遅れがあることは事実だが、薬剤耐性菌の原因にはならない。黄色ブドウ球菌MSSAは突然変異ではMRSAに変身しない→抗菌薬を使っただけでは自然発生しないため、接触感染予防策の不全による院内感染を疑うべき。MRSAは家畜由来のLA-MRSA(livestock-associated MRSA:家畜関連MRSA)が問題となっている',
+          commentary: '抗菌薬の過剰使用(overuse)と誤用(misuse)が耐性菌選択圧を高める。新しい抗菌薬の開発の遅れがあることは事実だが、薬剤耐性菌の原因にはならない。黄色ブドウ球菌 MSSA は突然変異ではMRSAに変身しない → 抗菌薬を使っただけでは自然発生しないため、接触感染予防策の不全による院内感染を疑うべき。MRSAは家畜由来のLA-MRSA(livestock-associated MRSA:家畜関連MRSA)が問題となっている',
         },
         {
           detailInfo: '',
           questionImg: [],
           questionSentence: '薬剤耐性グラム陽性菌について誤っているものはどれか（複数選択可）',
           choices: ["日本はペニシリン耐性肺炎球菌の割合が高い", "ペニシリン耐性肺炎球菌の耐性機構は、結合親和性の低下である。", "バンコマイシン耐性腸球菌は、米国で多く分離され、家畜からも分離される", "バンコマイシン耐性腸球菌は、近年奈良県において高頻度に分離される", "メチシリン耐性黄色ブドウ球菌は、抗菌薬を使用することで容易に発生する", "メチシリン耐性黄色ブドウ球菌は、人のみならず、家畜からも分離される"],
-          answerImg: [],
+          answerImg: [MultiDrugResistantPercentage, VRE, MRSAFromDrugAbuse, MRSALA],
           answer: '5が誤り...MRSAは抗菌薬の使用だけでは発生しない',
           commentary: '日本ではMRSAやPRSP(ペニシリン耐性肺炎球菌)の割合が高い（約60%/５類定点）一方で、VRSAやVREはほとんど見つかっていない。肺炎球菌は対数増殖期に自然とコンピテント状態となり、口腔内連鎖球菌由来のPBP遺伝子と遺伝子組み換えを起こしてペニシリン耐性を獲得する。PBP変異を起こすとペニシリンなどのβラクタムへの結合親和性が低下する。バンコマイシン耐性腸球菌VREは米国では約80%の割合に達していて、日本でも今後流行する恐れがある。家畜からも分離されるが、近年は家畜への抗菌薬の使用制限により減少傾向。VREは奈良県総合医療センターで集団感染があったらしい。メチシリン耐性黄色ブドウ球菌MRSAは抗菌薬を使っただけでは（突然変異では）耐性を獲得しないとされ、見つかった場合は院内感染が疑われる。また、家畜由来のLA-MRSAが問題となっている。',
         },
