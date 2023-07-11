@@ -133,6 +133,7 @@ import PCR from './img/answer/PCR.png';
 import pallidumTreponemaSymptoms from './img/answer/pallidumTreponemaSymptoms.png';
 import pallidumTreponema from './img/answer/pallidumTreponema.png';
 import bloodCulture from './img/answer/bloodCulture.png';
+import pneumoniaeStreptococcus2 from './img/answer/pneumoniaeStreptococcus2.png';
 
 
 
@@ -541,7 +542,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '肺炎球菌について誤っているものはどれか（複数選択可）',
           choices: ["食中毒の原因菌としては五番目に多い", "成人の市中肺炎で最も多い起炎菌である", "肺炎から菌血症を合併しやすい", "血液寒天培地上でβ溶血を示す", "予防として生ワクチンが小児にたいして用いられる"],
-          answerImg: [pneumoniaeStreptococcus],
+          answerImg: [pneumoniaeStreptococcus, pneumoniaeStreptococcus2],
           answer: '2,3が正しい',
           commentary: '食中毒の原因菌は、アニサキス43.5%、カンピロバクター20.5%、ノロウイルス11.2%、サルモネラ3.7%、ウェルシュ菌2.6%、ブドウ球菌2.4%。肺炎球菌は市中肺炎の代表的起因菌。侵襲性肺炎球菌感染症は髄膜炎や菌血症など重症化し、死亡率が高い。血液寒天培地ではα溶血性（部分溶血）を示す。肺炎球菌は莢膜を持ち免疫を獲得しにくいので、莢膜成分にアジュバンド（ジフテリア毒素）を配合した不活化ワクチンが用いられる。',
         },
