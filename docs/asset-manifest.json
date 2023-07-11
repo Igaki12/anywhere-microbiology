@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.7f1a1b22.js",
+    "main.js": "/anywhere-microbiology/static/js/main.9af063fa.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/question202202.png": "/anywhere-microbiology/static/media/question202202.1af22f3c70207fab3a7c.png",
@@ -39,6 +39,7 @@
     "static/media/betaDGlucan13.png": "/anywhere-microbiology/static/media/betaDGlucan13.e3d95a5482be22c34b5e.png",
     "static/media/aeruginosa.png": "/anywhere-microbiology/static/media/aeruginosa.d01528a976eca97de396.png",
     "static/media/fangusVariety.png": "/anywhere-microbiology/static/media/fangusVariety.947edc8f0be683599a2a.png",
+    "static/media/pallidumTreponema.png": "/anywhere-microbiology/static/media/pallidumTreponema.0f2acd8c2456a563957f.png",
     "static/media/antibiogram.png": "/anywhere-microbiology/static/media/antibiogram.92c43cb666a12d2a9234.png",
     "static/media/LegionellaPathogenicity.png": "/anywhere-microbiology/static/media/LegionellaPathogenicity.28a26e63c260fe79a504.png",
     "static/media/Klebsiella.png": "/anywhere-microbiology/static/media/Klebsiella.28ecbb13f5df9994edb4.png",
@@ -104,9 +105,11 @@
     "static/media/TDM.png": "/anywhere-microbiology/static/media/TDM.93ed00643239388272cf.png",
     "static/media/handWashing.png": "/anywhere-microbiology/static/media/handWashing.f27419e8fc01e7794694.png",
     "static/media/empiricTherapy.png": "/anywhere-microbiology/static/media/empiricTherapy.32d2a28963e052094f15.png",
+    "static/media/bloodCulture.png": "/anywhere-microbiology/static/media/bloodCulture.1d3fc669f9fec2f45252.png",
     "static/media/influenzaHaemophilus.png": "/anywhere-microbiology/static/media/influenzaHaemophilus.f9f238bf7f4b870cfead.png",
     "static/media/resistanceSummary.png": "/anywhere-microbiology/static/media/resistanceSummary.1987bbc0f96af5f0fe9f.png",
     "static/media/ETEC.png": "/anywhere-microbiology/static/media/ETEC.7c9e5420f32bfd0187d1.png",
+    "static/media/pallidumTreponemaSymptoms.png": "/anywhere-microbiology/static/media/pallidumTreponemaSymptoms.d1e55f5f278f5a0a0e9d.png",
     "static/media/infectiousMononucleosis.png": "/anywhere-microbiology/static/media/infectiousMononucleosis.48830de0b19ce7b93a01.png",
     "static/media/betaLactamaseCounterexample.png": "/anywhere-microbiology/static/media/betaLactamaseCounterexample.69d4db960dd7aa94eb7a.png",
     "static/media/tuberculosisTreatment.png": "/anywhere-microbiology/static/media/tuberculosisTreatment.c556af938ba7739b53d6.png",
@@ -122,6 +125,7 @@
     "static/media/disc.png": "/anywhere-microbiology/static/media/disc.13ff0732a68a3e030f65.png",
     "static/media/Salmonella.png": "/anywhere-microbiology/static/media/Salmonella.65404cb0c9d3029b616f.png",
     "static/media/sterilSpectrum.png": "/anywhere-microbiology/static/media/sterilSpectrum.99a18ed23c1b18eafff3.png",
+    "static/media/PCR.png": "/anywhere-microbiology/static/media/PCR.724e7c0edc02f9ccc567.png",
     "static/media/antibioticsAnimal.png": "/anywhere-microbiology/static/media/antibioticsAnimal.a56d0a7a5a20a8516d6e.png",
     "static/media/columbianExchange.png": "/anywhere-microbiology/static/media/columbianExchange.32760e1c4aee271cff55.png",
     "static/media/antiStain.png": "/anywhere-microbiology/static/media/antiStain.5eb746b093d707e408e5.png",
@@ -133,10 +137,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.7f1a1b22.js.map": "/anywhere-microbiology/static/js/main.7f1a1b22.js.map"
+    "main.9af063fa.js.map": "/anywhere-microbiology/static/js/main.9af063fa.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.7f1a1b22.js"
+    "static/js/main.9af063fa.js"
   ]
 }
