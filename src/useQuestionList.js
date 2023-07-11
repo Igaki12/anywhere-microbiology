@@ -122,6 +122,13 @@ import emergingDiseases from './img/answer/emergingDiseases.png';
 import DoderleinBacillus from './img/answer/DoderleinBacillus.png';
 import AST from './img/answer/AST.png';
 import antibiogram from './img/answer/antibiogram.png';
+import sterilSpectrum from './img/answer/sterilSpectrum.png';
+import sterilization from './img/answer/sterilization.png';
+import smallpox from './img/answer/smallpox.png';
+import semiCritical from './img/answer/semiCritical.png';
+import plague from './img/answer/plague.png';
+import criticalTool from './img/answer/criticalTool.png';
+import columbianExchange from './img/answer/columbianExchange.png';
 
 
 
@@ -998,7 +1005,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '以下の文のうち、正しいのはどれか（複数選択可）',
           choices: ["不顕性感染とは微生物に感染し、発症していることである", "14世紀ヨーロッパでのペストの流行がルネサンスをもたらす要因となった", "ルネサンスの自由な気風がヨーロッパにおける梅毒の流行・蔓延をもたらした", "ルネサンス時代の梅毒は激烈な症状を呈した", "大航海時代、コロンブスはアメリカ大陸に天然痘をもたらした"],
-          answerImg: [],
+          answerImg: [plague, columbianExchange],
           answer: '2,3,4,5が正しい',
           commentary: '「感染」と「発症」は異なる基準で、感染はしているが発症していない状態を不顕性感染、感染し発症している状態を顕性感染（感染症）と呼ぶ。ペストは14世紀ヨーロッパで大流行し、カトリックへの疑念・イタリアへの富の蓄積が重なってルネサンスの原因となった。しかし皮肉にもルネサンスによる自由な気風と性の解放がヨーロッパにおける梅毒の流行・蔓延をもたらした。かつての梅毒は今とは異なり症状が激烈で、日本含め多くの人々が亡くなった。コロンブス交換により、天然痘・麻疹・ペストなどがアメリカ大陸にもたらされ、梅毒・イチゴ腫・黄熱がヨーロッパにもたらされた。',
         },
@@ -1007,7 +1014,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '1980年、WHOは天然痘の根絶を宣言した。根絶できた要因として正しいのはどれか（複数選択可）',
           choices: ["ヒト以外に自然宿主を持たない", "顕性感染がない", "患者の識別が容易", "変異を起こしにくい", "有効なワクチンがある"],
-          answerImg: [],
+          answerImg: [smallpox],
           answer: '1,3,4,5が正しい',
           commentary: '不顕性感染がない（感染しているものの発症していないことがない）ことも根絶できた要因とされる。牛痘由来の種痘ワクチンが著効した。',
         },
@@ -1016,7 +1023,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '滅菌と消毒について、誤っているのはどれか（複数選択可）',
           choices: ["酸化エチレンガス滅菌の利点は耐熱性の低いプラスチック素材などに使用できることである", "消毒とは、生存する微生物の数を減らすことである", "滅菌とは芽胞以外の微生物を殺滅または除去させるものである", "高圧蒸気滅菌の条件は、2気圧、121°C、15分間である。", "クリティカル器具には高水準消毒が必要である"],
-          answerImg: [],
+          answerImg: [sterilization, criticalTool],
           answer: '3,5が誤り',
           commentary: 'エチレンオキサイドガス（酸化エチレンガス）滅菌は、ガスにより微生物を構成するタンパク質のアルキル化を起こし死滅さあセル滅菌方法で、比較的低温（37-60度）で行えるためプラスチックなど耐熱性の低い器材でも使用できる。　滅菌とは「病原菌・非病原菌を問わず芽胞を含むすべての微生物を完全に死滅除去すること」を指し、消毒とは「病原微生物をの数を減らす（完全に除去するわけではない）こと」を指す。滅菌には前述の酸化エチレンガス滅菌のほかに高圧蒸気滅菌（オートクレーブ：2気圧・121度の飽和蒸気圧で15分間加熱する滅菌方法）とガスプラズマ滅菌、化学的滅菌が存在し、芽胞を含むすべての微生物を死滅除去することができる。クリティカル器具には無菌の組織や脈管系に入る、カテーテルなどの器具が分類され、高水準消毒より上位の、最も厳しい滅菌水準の消毒を要求される。',
         },
@@ -1025,7 +1032,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '以下の器具に関して、滅菌を必要とするのはどれか（複数選択可）',
           choices: ["手術器具", "気管支鏡", "血液留置カテーテル", "気管カニューレ", "体温計"],
-          answerImg: [],
+          answerImg: [criticalTool, semiCritical],
           answer: '手術器具・血液留置カテーテル',
           commentary: 'スポルティングの法則によると、滅菌を必要とするクリティカル器具には、無菌の組織や脈管系に入るものが分類され、手術器具・血管系の器材・尿道カテーテル・インプラントなどが含まれる。気管支鏡・気管カニューレ・直腸体温計などは粘膜や創傷のある皮膚と接触するのでセミクリティカル器具に分類され、高水準・中水準の消毒水準が求められる。聴診器などは健常な皮膚に接するのでノンクリティカル器具に分類される。',
         },
@@ -1034,7 +1041,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '芽胞を形成する菌に有効でない滅菌・消毒法はどれか（複数選択可）',
           choices: ["酸化エチレンガス滅菌", "アルコール", "高圧蒸気滅菌", "過酸化水素低温ガスプラズマ滅菌", "界面活性剤"],
-          answerImg: [],
+          answerImg: [sterilSpectrum, sterilization],
           answer: 'アルコール・界面活性剤',
           commentary: '一部の細菌が形成する芽胞は70-93度の熱水や蒸気に耐え、高水準消毒より上の、滅菌でしか完全に除去することができない。滅菌方法には高圧蒸気滅菌（オートクレーブ）、酸化エチレンガス滅菌、（過酸化水素低温）ガスプラズマ滅菌、化学的滅菌（過酢酸・グルタラール）が分類され、それぞれに長所短所がある。',
         },
