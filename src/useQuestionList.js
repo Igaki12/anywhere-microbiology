@@ -138,6 +138,7 @@ import toxinInnerOuter from './img/answer/toxinInnerOuter.png';
 import repressor from './img/answer/repressor.png';
 import GramDifferencesGraph from './img/answer/GramDifferencesGraph.png';
 import allBacteriaGram from './img/answer/allBacteriaGram.png';
+import pneumonia from './img/answer/pneumonia.png';
 
 
 
@@ -735,9 +736,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '呼吸器疾患(肺炎）の原因となるウイルスはどれか（複数選択可）',
           choices: ["ロタウイルス", "ノロウイルス", "ライノウイルス", "ヒトヘルペスウイルス6型", "アデノウイルス"],
-          answerImg: [rotavirusNorovirus, herpesVirus67, adenoVirus],
+          answerImg: [pneumonia],
           answer: 'ライノウイルス',
-          commentary: 'ロタウイルス・ノロウイルスはともに消化管に感染し下痢の症状が特徴的なウイルスである。ライノウイルスは冬から春にかけて呼吸器に感染し鼻風邪症状を引き起こす。ヒトヘルペスウイルス6型・7型(HHV-6/7)は唾液を介してTリンパ球に感染する二本鎖線状DNAウイルス。アデノウイルスは消化に抵抗し腸管で増殖する他、急性咽頭炎の原因になる。',
+          commentary: 'ロタウイルス・ノロウイルスはともに消化管に感染し下痢の症状が特徴的なウイルスである。ライノウイルスは冬から春にかけて呼吸器に感染し鼻風邪症状を引き起こす。ヒトヘルペスウイルス6型・7型(HHV-6/7)は唾液を介してTリンパ球に感染する二本鎖線状DNAウイルス。アデノウイルスは消化に抵抗し腸管で増殖する他、急性咽頭炎の原因にもなる。',
         },
         {
           detailInfo: '',
