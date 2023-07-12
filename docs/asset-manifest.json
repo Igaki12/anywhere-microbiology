@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.cdcfe8fd.js",
+    "main.js": "/anywhere-microbiology/static/js/main.e171dd98.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/allBacteriaGram.png": "/anywhere-microbiology/static/media/allBacteriaGram.3bb2f0186151b1e9a70b.png",
@@ -38,6 +38,7 @@
     "static/media/Actinomycetes.png": "/anywhere-microbiology/static/media/Actinomycetes.502593d86ca3c9778968.png",
     "static/media/betaDGlucan13.png": "/anywhere-microbiology/static/media/betaDGlucan13.e3d95a5482be22c34b5e.png",
     "static/media/aeruginosa.png": "/anywhere-microbiology/static/media/aeruginosa.d01528a976eca97de396.png",
+    "static/media/plasmidResistance.png": "/anywhere-microbiology/static/media/plasmidResistance.71d8b6b2d74c588ab575.png",
     "static/media/fangusVariety.png": "/anywhere-microbiology/static/media/fangusVariety.947edc8f0be683599a2a.png",
     "static/media/pallidumTreponema.png": "/anywhere-microbiology/static/media/pallidumTreponema.0f2acd8c2456a563957f.png",
     "static/media/antibiogram.png": "/anywhere-microbiology/static/media/antibiogram.92c43cb666a12d2a9234.png",
@@ -48,6 +49,7 @@
     "static/media/Listeria.png": "/anywhere-microbiology/static/media/Listeria.b3c81d8a50a7be2a2e7c.png",
     "static/media/botulinumToxin.png": "/anywhere-microbiology/static/media/botulinumToxin.8988aef02211eeaf0eaf.png",
     "static/media/herpes.png": "/anywhere-microbiology/static/media/herpes.8ee9023360a29f9e803e.png",
+    "static/media/BetaLactamResistanceMechanisms.png": "/anywhere-microbiology/static/media/BetaLactamResistanceMechanisms.e8c9f8f2926589608fcf.png",
     "static/media/RSV.png": "/anywhere-microbiology/static/media/RSV.d6ddd629b0a1d381f755.png",
     "static/media/antiFungal.png": "/anywhere-microbiology/static/media/antiFungal.cd9e9e3650e42c2b57c6.png",
     "static/media/influenzaVirusHA.png": "/anywhere-microbiology/static/media/influenzaVirusHA.598c921e9a4f843f4ce1.png",
@@ -91,6 +93,7 @@
     "static/media/CMV.png": "/anywhere-microbiology/static/media/CMV.e32d0578f54b72733360.png",
     "static/media/MultiDrugResistantPercentage.png": "/anywhere-microbiology/static/media/MultiDrugResistantPercentage.7aa01b148d1b30451b86.png",
     "static/media/sequence16SrRNA.png": "/anywhere-microbiology/static/media/sequence16SrRNA.f3fa7fd2654ac166381b.png",
+    "static/media/pneumoniaeStreptococcusResistance.png": "/anywhere-microbiology/static/media/pneumoniaeStreptococcusResistance.5cef899012fe4b53eef2.png",
     "static/media/ESBL.png": "/anywhere-microbiology/static/media/ESBL.b622b62ddc0ffacd2e8b.png",
     "static/media/JapaneseEncephalitisVirus.png": "/anywhere-microbiology/static/media/JapaneseEncephalitisVirus.2edc9f763c64033e3cdf.png",
     "static/media/pertussis.png": "/anywhere-microbiology/static/media/pertussis.3d44007a35783da599c7.png",
@@ -144,10 +147,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.cdcfe8fd.js.map": "/anywhere-microbiology/static/js/main.cdcfe8fd.js.map"
+    "main.e171dd98.js.map": "/anywhere-microbiology/static/js/main.e171dd98.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.cdcfe8fd.js"
+    "static/js/main.e171dd98.js"
   ]
 }

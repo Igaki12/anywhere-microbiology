@@ -139,7 +139,10 @@ import repressor from './img/answer/repressor.png';
 import GramDifferencesGraph from './img/answer/GramDifferencesGraph.png';
 import allBacteriaGram from './img/answer/allBacteriaGram.png';
 import pneumonia from './img/answer/pneumonia.png';
-import Coxsackievirus from './img/answer/Coxsackievirus.png';  
+import Coxsackievirus from './img/answer/Coxsackievirus.png';
+import pneumoniaeStreptococcusResistance from './img/answer/pneumoniaeStreptococcusResistance.png';
+import plasmidResistance from './img/answer/plasmidResistance.png';
+import BetaLactamResistanceMechanisms from './img/answer/BetaLactamResistanceMechanisms.png';
 
 
 
@@ -737,7 +740,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '呼吸器疾患(肺炎）の原因となるウイルスはどれか（複数選択可）',
           choices: ["ロタウイルス", "ノロウイルス", "ライノウイルス", "ヒトヘルペスウイルス6型", "アデノウイルス"],
-          answerImg: [pneumonia,virusBacteria],
+          answerImg: [pneumonia, virusBacteria],
           answer: 'ライノウイルス・アデノウイルス',
           commentary: 'ロタウイルス・ノロウイルスはともに消化管に感染し下痢の症状が特徴的なウイルスである。ライノウイルスは冬から春にかけて呼吸器に感染し鼻風邪症状を引き起こす。ヒトヘルペスウイルス6型・7型(HHV-6/7)は唾液を介してTリンパ球に感染する二本鎖線状DNAウイルス。アデノウイルスは消化に抵抗し腸管で増殖する他、急性咽頭炎の原因にもなる。',
         },
@@ -1178,9 +1181,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '染色体性にβ-ラクタマーゼ遺伝子を有する菌種はどれか（複数選択可）',
           choices: ["Staphylococcus aureus", "Klebsiella pneumoniae", "Enterobacter cloacae", "Streptococcus pneumoniae", "Neisseria gonorrhoeae"],
-          answerImg: [betaLactamaseCounterexample, betaLactamaseExample],
+          answerImg: [betaLactamaseCounterexample, betaLactamaseExample, BetaLactamResistanceMechanisms],
           answer: 'K.pneumoniae',
-          commentary: 'K.pneumoniae(肺炎球菌)はクラスA型βラクタマーゼを染色体性に産生する（ペニシリンに自然耐性をもつ）。E.cloacae（腸球菌）はプラスミド性にESBLを産生するものがいる（接合伝達する）。',
+          commentary: 'K.pneumoniae(肺炎桿菌:グラム陰性)はクラスA型βラクタマーゼを染色体性に産生する（ペニシリンに自然耐性をもつ）。E.cloacae（腸球菌）はプラスミド性にESBLを産生するものがいる（接合伝達する）。肺炎球菌(S.pneumoniae)や黄色ブドウ球菌(S.aureus)はグラム陽性菌でβラクタマーゼを産生することはないが、PBP（ペニシリン結合タンパク）に変異を持つことでβ-ラクタム系に自然耐性をもっている。',
         },
         {
           detailInfo: '',
@@ -1214,7 +1217,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '以下の文章で正しいのはどれか（複数選択可）',
           choices: ["ポリオウイルスは強直性四肢麻痺を主徴とする急性灰白髄炎の病原体であり、顕性感染が多い", "ヒトパピローマウイルス16型と18型は子宮頸がんの原因ウイルスである", "コクサッキーウイルスA型は、手足口病の主な原因ウイルスである", "アデノウイルスは鼻風邪の原因ウイルスである", "ロタウイルスは二枚貝の中腸線に蓄積される"],
-          answerImg: [poliovirus,Papilloma,Coxsackievirus,pneumonia,rotavirusNorovirus],
+          answerImg: [poliovirus, Papilloma, Coxsackievirus, pneumonia, rotavirusNorovirus],
           answer: 'が正しい',
           commentary: 'ポリオウイルスは急性灰白髄炎を引き起こすが、四肢の急性弛緩性麻痺が主徴で99%以上が不顕性感染である（かつてはほぼ全員が感染していたとされている）。HPV16/18型が子宮頸がんを引き起こすため、子宮頸がんワクチンが開発され接種されているが、尖圭コンジローマを引き起こす6/11型には効かない。コクサッキーウイルスA群は横紋筋が変性しヘルパンギーナや手足口病の原因となる。アデノウイルスは飛沫感染し咽頭炎や異型肺炎の原因となるが、鼻風邪の原因にはならない（鼻風邪は主にライノウイルスやRSウイルスが原因）。ノロウイルスとロタウイルスはともにエンベロープを持たないRNAウイルス（→アルコールに強い）で、少ない菌数でも便や吐物から経口感染し、下痢を引き起こすウイルスだが、流行時期（ロタウイルスの方が少し遅い）、下痢の色（ロタウイルスは白）、二枚貝中腸線への蓄積（ノロウイルスのみ）、ワクチン（ロタウイルスのみ、ノロウイルスは遺伝子型が多様で開発困難）などで違いがある。',
         },
@@ -1384,6 +1387,16 @@ export const useQuestionList = () => {
           answer: '3,4は無関係',
           commentary: 'Rプラスミドは薬剤耐性遺伝子、Fプラスミドは大腸菌に関与する。いずれも接合伝達しうる。形質転換（外来のDNAを取り込み形質を変化させる現象）は細菌では良く起こる。DNAを取り込みやすい状態→コンピテント。ファージによる遺伝子の導入は形質導入とよばれる。LPSのリピドAは内毒素。オペロンは状況に応じて遺伝子発現を制御する原核生物の機構で、リプレッサーを用いて転写制御（とくに転写阻害）を行っている。',
         },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: 'ペニシリン耐性肺炎球菌(PRSP)の薬剤耐性機序はどれか？',
+          choices: ["β-ラクタマーゼ産生", "PBPの変異", "外膜透過性の低下", "リボソームの変異", "DNAジャイレースの変異"],
+          answerImg: [pneumoniaeStreptococcusResistance, BetaLactamResistanceMechanisms, betaLactamaseCounterexample],
+          answer: 'PBPの変異',
+          commentary: '肺炎球菌は細胞膜のPBP(ペニシリン結合タンパク)に変異が入ることでβ-ラクタム系抗菌薬に耐性を持つようになるが、肺炎桿菌などのグラム陰性菌とは異なり酵素（βラクタマーゼ）産生は行わないため、投与したβラクタム系抗菌薬は周辺の微生物には効く。肺炎球菌はグラム陽性なので外膜をもたない（莢膜はもつ）。マクロライド系（エリスロマイシンなど）などタンパク合成阻害抗菌薬には標的のリボソームに変異を起こし耐性を獲得することがあるし、キノロン系など核酸合成阻害抗菌薬には標的のDNA複製酵素に変異を起こすことで耐性を獲得することがある。',
+        },
+
         {
           detailInfo: '',
           questionImg: [],
