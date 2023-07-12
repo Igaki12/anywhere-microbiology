@@ -139,6 +139,7 @@ import repressor from './img/answer/repressor.png';
 import GramDifferencesGraph from './img/answer/GramDifferencesGraph.png';
 import allBacteriaGram from './img/answer/allBacteriaGram.png';
 import pneumonia from './img/answer/pneumonia.png';
+import Coxsackievirus from './img/answer/Coxsackievirus.png';  
 
 
 
@@ -1041,9 +1042,9 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '以下の器具に関して、滅菌を必要とするのはどれか（複数選択可）',
-          choices: ["手術器具", "気管支鏡", "血液留置カテーテル", "気管カニューレ", "体温計"],
+          choices: ["手術器具", "気管支鏡", "血管留置カテーテル", "気管カニューレ", "体温計"],
           answerImg: [criticalTool, semiCritical],
-          answer: '手術器具・血液留置カテーテル',
+          answer: '手術器具・血管留置カテーテル',
           commentary: 'スポルティングの法則によると、滅菌を必要とするクリティカル器具には、無菌の組織や脈管系に入るものが分類され、手術器具・血管系の器材・尿道カテーテル・インプラントなどが含まれる。気管支鏡・気管カニューレ・直腸体温計などは粘膜や創傷のある皮膚と接触するのでセミクリティカル器具に分類され、高水準・中水準の消毒水準が求められる。聴診器などは健常な皮膚に接するのでノンクリティカル器具に分類される。',
         },
         {
@@ -1115,7 +1116,7 @@ export const useQuestionList = () => {
           questionSentence: '以下の文について正しいのはどれか（複数選択可）',
           choices: ["Bartonella heselae は猫引っかき病の原因菌である", "Bordetella pertussis は百日咳の原因菌である", "Accinetobacter baumannii は乾燥に弱い", "Psudomonas aeruginosaは乾燥に強い", "Klebsiella pneumoniae は厚い莢膜をもつ"],
           answerImg: [Bartonella, pertussis, Acinetobacter, aeruginosa, Klebsiella],
-          answer: '1,5が正しい',
+          answer: '1,2,5が正しい',
           commentary: 'Bartonella henselaeはバルトネラ属で主要なグラム陰性好気性桿菌。百日咳菌は同じグラム陰性好気性桿菌ではあるがボルデテラ属。アシネトバクターバウマニは環境や土壌に広く生息していて、グラム陰性桿菌のなかでは比較的乾燥に強い。緑膿菌(P.aeruginosa)は水回りに生息し、乾燥に弱い。クレブシエラ属は厚い莢膜が特徴的な腸内細菌科細菌で、ペニシリン系に自然耐性をもちESBL産生による院内感染が問題となっている。',
         },
         {
@@ -1203,10 +1204,19 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '以下の文章で正しいのはどれか（複数選択可）',
-          choices: ["先天性サイトメガロウイルス感染症では、聴覚障害を起こすことがある", "本邦では妊婦の九割以上がサイトメガロウイルス抗体を保有している", "サイトメガロウイルス感染症は有効なワクチン接種により感染予防ができる", "伝染性単核症では末梢血中に異型リンパ球が出現することが多い", "単純ヘルペスウイルス１型は性器ヘルペスを起こすことが多い", "EBウイルスのEA IgAが陽性の場合、初感染が疑われる"],
+          choices: ["先天性サイトメガロウイルス感染症では、聴覚障害を起こすことがある", "本邦では妊婦の九割以上がサイトメガロウイルス抗体を保有している", "サイトメガロウイルス感染症は有効なワクチン接種により感染予防ができる", "伝染性単核症では末梢血中に異型リンパ球が出現することが多い", "単純ヘルペスウイルス１型は性器ヘルペスを起こすことが多い", "EBウイルスのEA IgGが陽性の場合、初感染が疑われる"],
           answerImg: [CMV, infectiousMononucleosis, EBVAntibody, herpes],
-          answer: '1,4が正しい',
+          answer: '1,4,6が正しい',
           commentary: 'サイトメガロウイルスは垂直感染し感音性難聴などの先天性障害を引き起こすTORCH症候群のCで、日本では妊婦の約75%が抗体を持っているが、抗体を持っていない場合は問題となる。成人に感染した場合は殆ど不顕性で経過し病原性は低い。ワクチンは存在しない。EBウイルスは急性感染で伝染性単核球症を招く場合があり、末梢血中に異型リンパ球が現れるほか、発熱・リンパ節腫脹・咽頭扁桃炎の3主徴が特徴的。EBVは殆どが不顕性感染で感染者の90%以上が潜伏感染＆生涯ウイルスを排泄し続け、感染細胞を不死化することでバーキットリンパ腫や上咽頭がんの原因となる。初感染かどうかはEA IgG抗体やVCA IgM抗体を調べることで判定できる。慢性的な感染で未分化型上咽頭がんを発症した場合は粘膜に分泌されるEA IgA やVCA IgAも陽性になる。性器ヘルペスを起こすのは単純ヘルペスウイルスⅡ型',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '以下の文章で正しいのはどれか（複数選択可）',
+          choices: ["ポリオウイルスは強直性四肢麻痺を主徴とする急性灰白髄炎の病原体であり、顕性感染が多い", "ヒトパピローマウイルス16型と18型は子宮頸がんの原因ウイルスである", "コクサッキーウイルスA型は、手足口病の主な原因ウイルスである", "アデノウイルスは鼻風邪の原因ウイルスである", "ロタウイルスは二枚貝の中腸線に蓄積される"],
+          answerImg: [poliovirus,Papilloma,Coxsackievirus,pneumonia,rotavirusNorovirus],
+          answer: 'が正しい',
+          commentary: 'ポリオウイルスは急性灰白髄炎を引き起こすが、四肢の急性弛緩性麻痺が主徴で99%以上が不顕性感染である（かつてはほぼ全員が感染していたとされている）。HPV16/18型が子宮頸がんを引き起こすため、子宮頸がんワクチンが開発され接種されているが、尖圭コンジローマを引き起こす6/11型には効かない。コクサッキーウイルスA群は横紋筋が変性しヘルパンギーナや手足口病の原因となる。アデノウイルスは飛沫感染し咽頭炎や異型肺炎の原因となるが、鼻風邪の原因にはならない（鼻風邪は主にライノウイルスやRSウイルスが原因）。ノロウイルスとロタウイルスはともにエンベロープを持たないRNAウイルス（→アルコールに強い）で、少ない菌数でも便や吐物から経口感染し、下痢を引き起こすウイルスだが、流行時期（ロタウイルスの方が少し遅い）、下痢の色（ロタウイルスは白）、二枚貝中腸線への蓄積（ノロウイルスのみ）、ワクチン（ロタウイルスのみ、ノロウイルスは遺伝子型が多様で開発困難）などで違いがある。',
         },
         {
           detailInfo: '',
