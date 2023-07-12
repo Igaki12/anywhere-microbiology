@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.d90ad1ea.js",
+    "main.js": "/anywhere-microbiology/static/js/main.0a3bf7d4.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
+    "static/media/allBacteriaGram.png": "/anywhere-microbiology/static/media/allBacteriaGram.3bb2f0186151b1e9a70b.png",
     "static/media/question202202.png": "/anywhere-microbiology/static/media/question202202.1af22f3c70207fab3a7c.png",
     "static/media/tuberculosis.png": "/anywhere-microbiology/static/media/tuberculosis.6b0c51573575c2a7dbaf.png",
     "static/media/Rubella.png": "/anywhere-microbiology/static/media/Rubella.33c2307a6b58676c4303.png",
@@ -69,7 +70,6 @@
     "static/media/SFTS.png": "/anywhere-microbiology/static/media/SFTS.a72edd77b1e32c62efe4.png",
     "static/media/virusVariety.png": "/anywhere-microbiology/static/media/virusVariety.0377fb9584b1f9dbaca5.png",
     "static/media/probiotics.png": "/anywhere-microbiology/static/media/probiotics.77141c437c7c0f8d9bf4.png",
-    "static/media/emergingDiseases.png": "/anywhere-microbiology/static/media/emergingDiseases.b45b9ad46598236deef2.png",
     "static/media/prebiotics.png": "/anywhere-microbiology/static/media/prebiotics.21c1ed64b16008feecc6.png",
     "static/media/ChlamydiaTrachomatis.png": "/anywhere-microbiology/static/media/ChlamydiaTrachomatis.60708d8a1711453bdee8.png",
     "static/media/titleImg.jpg": "/anywhere-microbiology/static/media/titleImg.993a9216abef1f0bbeda.jpg",
@@ -78,6 +78,7 @@
     "static/media/MultiDrugResistant.png": "/anywhere-microbiology/static/media/MultiDrugResistant.5a38408a12f5039ffbd4.png",
     "static/media/JCV.png": "/anywhere-microbiology/static/media/JCV.f5f0079847816d8e7436.png",
     "static/media/MALDI.png": "/anywhere-microbiology/static/media/MALDI.00e331071fdd6524446b.png",
+    "static/media/repressor.png": "/anywhere-microbiology/static/media/repressor.b8a41044911ed8be32c8.png",
     "static/media/toxin.png": "/anywhere-microbiology/static/media/toxin.311376ae73bd6cb529e5.png",
     "static/media/virusBacteria.png": "/anywhere-microbiology/static/media/virusBacteria.c9541b6b0f937c382746.png",
     "static/media/DengueVirus.png": "/anywhere-microbiology/static/media/DengueVirus.3c2761a711dc82df116d.png",
@@ -96,9 +97,11 @@
     "static/media/tuberculosisTreatment2.png": "/anywhere-microbiology/static/media/tuberculosisTreatment2.83c9eddc26ee2aa5cf9a.png",
     "static/media/virusInfectedCell.png": "/anywhere-microbiology/static/media/virusInfectedCell.900161bc4bc73cb19527.png",
     "static/media/EBVAntibody.png": "/anywhere-microbiology/static/media/EBVAntibody.f084133310c5a2850ed9.png",
+    "static/media/toxinInnerOuter.png": "/anywhere-microbiology/static/media/toxinInnerOuter.851216f05a0f215636a1.png",
     "static/media/bacteriophage.png": "/anywhere-microbiology/static/media/bacteriophage.f890a5b08da22e07984f.png",
     "static/media/VZV.png": "/anywhere-microbiology/static/media/VZV.8d255dc35990b73c9d5e.png",
     "static/media/MRSAFromDrugAbuse.png": "/anywhere-microbiology/static/media/MRSAFromDrugAbuse.d3137a19567230e0fedf.png",
+    "static/media/emergingDiseases.png": "/anywhere-microbiology/static/media/emergingDiseases.d4cbd5987d6af9a10ed0.png",
     "static/media/PPE1.png": "/anywhere-microbiology/static/media/PPE1.e6be08338469cfd26abf.png",
     "static/media/Shiga.png": "/anywhere-microbiology/static/media/Shiga.aec948eb110fbe5d0cd1.png",
     "static/media/lepraeMycobacterium.png": "/anywhere-microbiology/static/media/lepraeMycobacterium.c47c96aed4a3b6e9cb5a.png",
@@ -128,6 +131,7 @@
     "static/media/sterilSpectrum.png": "/anywhere-microbiology/static/media/sterilSpectrum.99a18ed23c1b18eafff3.png",
     "static/media/PCR.png": "/anywhere-microbiology/static/media/PCR.724e7c0edc02f9ccc567.png",
     "static/media/antibioticsAnimal.png": "/anywhere-microbiology/static/media/antibioticsAnimal.a56d0a7a5a20a8516d6e.png",
+    "static/media/GramDifferencesGraph.png": "/anywhere-microbiology/static/media/GramDifferencesGraph.2bcda320319093e4801b.png",
     "static/media/columbianExchange.png": "/anywhere-microbiology/static/media/columbianExchange.32760e1c4aee271cff55.png",
     "static/media/antiStain.png": "/anywhere-microbiology/static/media/antiStain.5eb746b093d707e408e5.png",
     "static/media/semiCritical.png": "/anywhere-microbiology/static/media/semiCritical.2c4355aaec4123774686.png",
@@ -138,10 +142,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.d90ad1ea.js.map": "/anywhere-microbiology/static/js/main.d90ad1ea.js.map"
+    "main.0a3bf7d4.js.map": "/anywhere-microbiology/static/js/main.0a3bf7d4.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.d90ad1ea.js"
+    "static/js/main.0a3bf7d4.js"
   ]
 }

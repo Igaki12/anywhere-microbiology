@@ -134,6 +134,10 @@ import pallidumTreponemaSymptoms from './img/answer/pallidumTreponemaSymptoms.pn
 import pallidumTreponema from './img/answer/pallidumTreponema.png';
 import bloodCulture from './img/answer/bloodCulture.png';
 import pneumoniaeStreptococcus2 from './img/answer/pneumoniaeStreptococcus2.png';
+import toxinInnerOuter from './img/answer/toxinInnerOuter.png';
+import repressor from './img/answer/repressor.png';
+import GramDifferencesGraph from './img/answer/GramDifferencesGraph.png';
+import allBacteriaGram from './img/answer/allBacteriaGram.png';
 
 
 
@@ -250,7 +254,7 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '芽胞を形成する菌に有効でない滅菌・消毒法はどれか(複数選択可)',
-          answerImg: [disinfection,sterilSpectrum],
+          answerImg: [disinfection, sterilSpectrum],
           choices: ["酸化エチレンガス滅菌", "アルコール", "高圧蒸気滅菌", "過酸化水素低温ガスプラズマ滅菌", "界面活性剤"],
           answer: 'アルコール、界面活性剤',
           commentary: '芽胞を形成する菌に有効なのは滅菌あり、酸化エチレンガス滅菌、高圧蒸気滅菌（オートクレーブ）、過酸化水素低温ガスプラズマ滅菌は大量の芽胞を含む、全ての微生物を殺滅あるいは除去することができる。アルコールは中水準消毒であり、芽胞を除く結核菌、その他の細菌、ほとんどのウイルスや真菌を殺滅させるが、芽胞を形成する菌には有効ではない。界面活性剤（石鹸）は低水準消毒であり、ほとんどの細菌や真菌、一部のウイルスを殺滅させるが、結核菌や芽胞は殺滅させず、芽胞を形成する菌には有効ではない。',
@@ -434,7 +438,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '細菌について正しいのはどれか（複数選択可）',
           choices: ["細菌にはリボソームが存在しない", "結核菌は芽胞形成菌である", "プラスミドを接合伝達させるためには性腺毛を必要とする", "クラミジアにはグラム染色が有用である", "グラム染色の接合性の違いは莢膜による"],
-          answerImg: [bacteriaStructure, tuberculosis, cilia, Chlamydiae, GramMethod],
+          answerImg: [mitochondriaNucleus, tuberculosis, cilia, allBacteriaGram, GramMethod],
           answer: 'プラスミドを接合伝達させるためには性線毛を必要とする',
           commentary: '細菌はタンパク合成のためのリボソームやプラスミドを保有している。性腺毛を持っている細菌はプラスミドの接合伝達によってペニシリナーゼやESBL、MBL産生遺伝子を伝達し薬剤耐性を伝播することがある。結核菌は外側をミコール酸で覆われているその特徴から一般的な抗菌薬が無効であるため、抗結核薬が使用される。結核はその他鞭毛・莢膜を持たず、通常の染色法では染まりにくい特徴も持っている。クラミジアはグラム染色で染色されるペプチドグリカン層を持っていない。',
         },
@@ -733,7 +737,7 @@ export const useQuestionList = () => {
           choices: ["ロタウイルス", "ノロウイルス", "ライノウイルス", "ヒトヘルペスウイルス6型", "アデノウイルス"],
           answerImg: [rotavirusNorovirus, herpesVirus67, adenoVirus],
           answer: 'ライノウイルス',
-          commentary: 'ロタウイルス・ノロウイルスはともに消化管に感染し下痢の症状が特徴的なウイルスである。ライノウイルスは冬から春にかけて呼吸器に感染し鼻風邪症状を引き起こす。ヒトヘルペスウイルス6型・7型(HHV-6/7)は唾液を介してTリンパ球に感染する二本鎖線状DNAウイルス。アデノウイルスは消化に抵抗し腸管で増殖するウイルス。',
+          commentary: 'ロタウイルス・ノロウイルスはともに消化管に感染し下痢の症状が特徴的なウイルスである。ライノウイルスは冬から春にかけて呼吸器に感染し鼻風邪症状を引き起こす。ヒトヘルペスウイルス6型・7型(HHV-6/7)は唾液を介してTリンパ球に感染する二本鎖線状DNAウイルス。アデノウイルスは消化に抵抗し腸管で増殖する他、急性咽頭炎の原因になる。',
         },
         {
           detailInfo: '',
@@ -1341,8 +1345,62 @@ export const useQuestionList = () => {
         // },
       ],
     }, {
-      groupTag: "2021年ピックアップ",
+      groupTag: "2021年抜粋",
       groupContents: [{
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '細菌の分類学上重要なグラム染色の手段で正しいのはどれか。',
+          choices: ["ルゴール液→サフラニン液→クリスタルバイオレット", "ルゴール液→クリスタルバイオレット→サフラニン液", "クリスタルバイオレット→サフラニン液→ルゴール液", "クリスタルバイオレット→ルゴール液→サフラニン液", "サフラニン液→クリスタルバイオレット→ルゴール液"],
+          answerImg: [GramMethod],
+          answer: 'クリスタルバイオレット→ルゴール液→サフラニン液',
+          commentary: 'クリスタルバイオレット、ルゴール、アルコール、サフラニンの順',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: 'グラム陽性菌とグラム陰性菌について大きな特徴の違いはどれか',
+          choices: ["ペプチドグリカン層の厚み", "リポ多糖体の有無", "鞭毛の数", "リン脂質の有無", "プラスミドの有無"],
+          answerImg: [GramDifferencesGraph, GramDifferences],
+          answer: 'ペプチドグリカン層の厚み、リポ多糖体、リン脂質',
+          commentary: '鞭毛・プラスミドはグラム染色に関係しない（グラム陰性菌のほうに偏ってはいるが）。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '関係のない組み合わせはどれか',
+          choices: ["Rプラスミド - 耐性遺伝子", "世代時間 - 二分裂による増殖", "形質転換 - ファージ", "外毒素 -  LPS", "オペロン - リプレッサー"],
+          answerImg: [toxinInnerOuter, repressor],
+          answer: '3,4は無関係',
+          commentary: 'Rプラスミドは薬剤耐性遺伝子、Fプラスミドは大腸菌に関与する。いずれも接合伝達しうる。形質転換（外来のDNAを取り込み形質を変化させる現象）は細菌では良く起こる。DNAを取り込みやすい状態→コンピテント。ファージによる遺伝子の導入は形質導入とよばれる。LPSのリピドAは内毒素。オペロンは状況に応じて遺伝子発現を制御する原核生物の機構で、リプレッサーを用いて転写制御（とくに転写阻害）を行っている。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: ["", "", "", "", ""],
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: ["", "", "", "", ""],
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '',
+          choices: ["", "", "", "", ""],
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+        {
           detailInfo: '',
           questionImg: [],
           questionSentence: '',
