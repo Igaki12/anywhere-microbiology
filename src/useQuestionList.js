@@ -143,6 +143,7 @@ import Coxsackievirus from './img/answer/Coxsackievirus.png';
 import pneumoniaeStreptococcusResistance from './img/answer/pneumoniaeStreptococcusResistance.png';
 import plasmidResistance from './img/answer/plasmidResistance.png';
 import BetaLactamResistanceMechanisms from './img/answer/BetaLactamResistanceMechanisms.png';
+import infectiousLaw from './img/answer/infectiousLaw.png';
 
 
 
@@ -1402,10 +1403,83 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '黄色ブドウ球菌による食中毒として原因になりうる食品はどれか',
           choices: ["おにぎり", "鳥刺し", "シチュー", "デミグラスハンバーグ", "牛乳"],
-          answerImg: [enterotoxin,SAPathogenicity],
+          answerImg: [enterotoxin, SAPathogenicity],
           answer: 'すべて該当',
           commentary: '黄色ブドウ球菌は通性嫌気性耐塩性グラム陽性球菌で、耐熱性黄色ブドウ球菌エンテロトキシン毒素によって様々な食品から食中毒を引き起こす。黄色ブドウ球菌は皮膚常在菌なので、手で直接触ることのあるおにぎり、ハンバーグなどは勿論、空気中に普通に漂っているため鳥刺し、シチューの調理中放置していると上から降ってきて、温度次第で繁殖してしまう。牛乳も開封すると黄色ブドウ球菌が入ってきて、冷蔵が不十分だったりすると繁殖して食中毒を引き起こすことがある。　その他食中毒の原因菌として、鶏肉関係はカンピロバクター（食中毒として最多）、シチューはウェルシュ菌、ハンバーグはO157大腸菌が有名。',
         },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '【正誤問題】リプレッサーはオペロンに結合して遺伝子の発現を抑制する。',
+          //      choices: ["", "", "", "", ""],
+          answerImg: [repressor],
+          answer: '誤り。オペロンではなくプロモーター。',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '細菌が自己を防御するために使用する抵抗因子はどれか。',
+          choices: ["バイオフィルム形成", "鞭毛", "莢膜", "ペプチドグリカン", "白血球障害性毒素"],
+          answerImg: [],
+          answer: 'バイオフィルム形成、莢膜、白血球障害性毒素',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '破傷風菌について、誤っているものはどれか。',
+          choices: ["破傷風菌の毒素は神経毒である。", "破傷風による致命率は20~30%である。", "３種混合ワクチンの中には、破傷風菌ワクチンが含まれている。", "血清療法が有効である。", "土壌中に存在している。", "破傷風菌は五類感染症に指定されている。"],
+          answerImg: [toxin],
+          answer: '破傷風菌ワクチンは３種混合ワクチンの中に含まれていない。',
+          commentary: 'DPT3種混合のTが破傷風菌。Dはジフテリア、Pは百日咳。これらは不活化ワクチン。',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: 'ボツリヌス食中毒について誤っているものはどれか。',
+          choices: ["毒素型食中毒である。", "加熱で予防できる。", "眼瞼下垂が見られる。", "呼吸筋麻痺はまれである。", "乳児に蜂蜜を投与してはならないのは、小児性ボツリヌス食中毒を引き起こすからである。"],
+          answerImg: [],
+          answer: '呼吸筋麻痺はまれである。',
+          commentary: '弛緩性の神経毒で最悪呼吸筋が麻痺して死に至る',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '【正誤問題】MRSAの治療薬として使われるアルベカシンはアミノ配糖体系薬に分類される。',
+          //  choices: ["", "", "", "", ""],
+          answerImg: [antibiotics],
+          answer: '正しい。',
+          commentary: '',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '【正誤問題】野口英世は黄熱病の発見を認められて1903年にノーベル生理学・医学賞を受賞した。',
+          //  choices: ["", "", "", "", ""],
+          answerImg: [],
+          answer: '誤り。黄熱病を発見していない、ノーベル賞を受賞していない。',
+          commentary: '黄熱病の原因は黄熱ウイルスで、当時の顕微鏡では見つけられなかった',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: '感染症法に指定されている指定感染症について正しいものはどれか。',
+          choices: ["積極的な「疫学調査(＊ここでは恐らく記述疫学のことを指す)」を行う必要がある。", "濃厚接触者に対しては外出自粛などで感染拡大を試みる。", "1年間を期限として政令指定される。", "既知の感染症だが、1~3類に準じた対応が必要である。", "新型コロナウイルスは指定感染症に指定された初めての感染症である。"],
+          answerImg: [infectiousLaw],
+          answer: '1,2,3,4',
+          commentary: '新型コロナは指定感染症(2020.2.1~2021.1.31)→新型インフルエンザ等感染症(2021.2.13~)→5類感染症(2023.5.8~)へと扱いが変わっていった。実は1年間しか指定感染症に指定されていない。1類～3類感染症に準じた対応には相当な負担があった。疫学調査には濃厚接触者の追跡も含まれる',
+        },
+        {
+          detailInfo: '',
+          questionImg: [],
+          questionSentence: 'ウイルスについて誤っているものを選べ。',
+          choices: ["不顕性感染をするウイルスが存在する。", "ヒトインフルエンザにはA,B,C型がある。", "新型コロナウイルスは抗原不連続性変異により出現する。", "一般に、ウイルスは変異するとより致命率が高くなり、より危険になる傾向にある。", "一般に、ウイルスは変異するとより感染力が高くなる傾向にある。"],
+          answerImg: [influenzaVirusA],
+          answer: '2,3',
+          commentary: '変異の目的はウイルスがより増殖すること。人間を殺すことが目的であるわけではなく、むしろ宿主が早期に死ぬと感染がそこで止まってしまうためウイルスにとっては都合が悪い。変異すると感染力は高くなるが致命率は低くなる。その裏付けとして、一般にウイルスの致命率と感染力の間には負の相関が認められる。',
+        },
+
         // {
         //   detailInfo: '',
         //   questionImg: [],
