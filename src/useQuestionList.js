@@ -42,6 +42,9 @@ import Bartonella from './img/answer/Bartonella.png';
 import produceBetaLactamase from './img/answer/produceBetaLactamase.png';
 import penicillinase from './img/answer/penicillinase.png';
 import betaLactamaseExample from './img/answer/betaLactamaseExample.png';
+import tetaniClostridium2 from './img/answer/tetaniClostridium2.png';
+import tetaniClostridium1 from './img/answer/tetaniClostridium1.png';
+
 import betaLactamaseCounterexample from './img/answer/betaLactamaseCounterexample.png';
 import antibioticsAnimal from './img/answer/antibioticsAnimal.png';
 import ampC from './img/answer/ampC.png';
@@ -605,7 +608,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'バンコマイシン耐性腸球菌に有効な薬はどれか（複数選択可）',
           choices: ["リネゾリド", "コリスチン", "バンコマイシン", "テイコプラニン", "アミノグリコシド"],
-          answerImg: [VRE],
+          answerImg: [VRE, antibiotics],
           answer: 'リネゾリド',
           commentary: 'バンコマイシンはD-Ala-D-Ala末端に結合し、PBPなどの酵素が認識できないようにして細胞壁合成を阻害するが、VREではD-Ala-D-Lacに変化していてバンコマイシンが結合できない。腸球菌の多くがアミノグリコシド系薬に自然耐性を持っているため、治療にはリネゾリド、ダプトマイシンが治療薬として使われる。テイコプラニンはバンコマイシンと同じグリコペプチド系抗菌薬（VanB型であればテイコプラニン感性）、コリスチンはポリペプチド系でMDRP治療の第一選択薬。',
         },
@@ -1437,10 +1440,10 @@ export const useQuestionList = () => {
           detailInfo: '',
           questionImg: [],
           questionSentence: '破傷風菌について、誤っているものはどれか。',
-          choices: ["破傷風菌の毒素は神経毒である。", "破傷風による致命率は20~30%である。", "３種混合ワクチンの中には、破傷風菌ワクチンが含まれている。", "血清療法が有効である。", "土壌中に存在している。", "破傷風菌は五類感染症に指定されている。"],
-          answerImg: [toxin],
-          answer: '破傷風菌ワクチンは３種混合ワクチンの中に含まれていない。',
-          commentary: 'DPT3種混合のTが破傷風菌。Dはジフテリア、Pは百日咳。これらは不活化ワクチン。',
+          choices: ["破傷風菌の毒素は神経毒である。", "破傷風による致命率は20~30%である。", "３種混合ワクチンの中には、破傷風菌ワクチンが含まれているので、日本での発病はない", "血清療法が有効である。", "土壌中に存在している。", "破傷風菌は五類感染症に指定されている。"],
+          answerImg: [toxin, tetaniClostridium1, tetaniClostridium2],
+          answer: '3',
+          commentary: '強直性神経毒のテタノスパスミンによって呼吸困難に陥り致死率が高い。DPT3種混合のTが破傷風菌。Dはジフテリア、Pは百日咳。これらは不活化ワクチン。土壌中に存在し文字通り傷口から感染する芽胞形成性グラム陽性桿菌。破傷風菌は5類全数把握感染症である。治療は抗毒素抗体（破傷風免疫ヒトグロブリン）であり、かつてはこれを含んだ血清が使われていた。',
         },
         {
           detailInfo: '',
@@ -1478,15 +1481,15 @@ export const useQuestionList = () => {
           answer: '1,2,3,4',
           commentary: '新型コロナは指定感染症(2020.2.1~2021.1.31)→新型インフルエンザ等感染症(2021.2.13~)→5類感染症(2023.5.8~)へと扱いが変わっていった。実は1年間しか指定感染症に指定されていない。1類～3類感染症に準じた対応には相当な負担があった。疫学調査には濃厚接触者の追跡も含まれる',
         },
-        {
-          detailInfo: '',
-          questionImg: [],
-          questionSentence: 'ウイルスについて誤っているものを選べ。',
-          choices: ["不顕性感染をするウイルスが存在する。", "ヒトインフルエンザにはA,B,C型がある。", "新型コロナウイルスは抗原不連続性変異により出現する。", "一般に、ウイルスは変異するとより致命率が高くなり、より危険になる傾向にある。", "一般に、ウイルスは変異するとより感染力が高くなる傾向にある。"],
-          answerImg: [influenzaVirusA],
-          answer: '2,3',
-          commentary: '変異の目的はウイルスがより増殖すること。人間を殺すことが目的であるわけではなく、むしろ宿主が早期に死ぬと感染がそこで止まってしまうためウイルスにとっては都合が悪い。変異すると感染力は高くなるが致命率は低くなる。その裏付けとして、一般にウイルスの致命率と感染力の間には負の相関が認められる。',
-        },
+        // {
+        //   detailInfo: '',
+        //   questionImg: [],
+        //   questionSentence: 'ウイルスについて誤っているものを選べ。',
+        //   choices: ["不顕性感染をするウイルスが存在する。", "ヒトインフルエンザにはA,B,C型がある。", "新型コロナウイルスは抗原不連続性変異により出現する。", "一般に、ウイルスは変異するとより致命率が高くなり、より危険になる傾向にある。", "一般に、ウイルスは変異するとより感染力が高くなる傾向にある。"],
+        //   answerImg: [influenzaVirusA],
+        //   answer: '3?',
+        //   commentary: '変異の目的はウイルスがより増殖すること。人間を殺すことが目的であるわけではなく、むしろ宿主が早期に死ぬと感染がそこで止まってしまうためウイルスにとっては都合が悪い。変異すると感染力は高くなるが致命率は低くなる。その裏付けとして、一般にウイルスの致命率と感染力の間には負の相関が認められる。',
+        // },
 
         // {
         //   detailInfo: '',
