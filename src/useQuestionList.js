@@ -144,6 +144,7 @@ import pneumoniaeStreptococcusResistance from './img/answer/pneumoniaeStreptococ
 import plasmidResistance from './img/answer/plasmidResistance.png';
 import BetaLactamResistanceMechanisms from './img/answer/BetaLactamResistanceMechanisms.png';
 import infectiousLaw from './img/answer/infectiousLaw.png';
+import GramPositiveProtection from './img/answer/GramPositiveProtection.png';
 
 
 
@@ -1421,9 +1422,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '細菌が自己を防御するために使用する抵抗因子はどれか。',
           choices: ["バイオフィルム形成", "鞭毛", "莢膜", "ペプチドグリカン", "白血球障害性毒素"],
-          answerImg: [],
+          answerImg: [GramPositiveProtection],
           answer: 'バイオフィルム形成、莢膜、白血球障害性毒素',
-          commentary: '',
+          commentary: '細菌は自己を宿主免疫から防御するため、様々な抵抗因子を発達させている。白血球障害性毒素は黄色ブドウ球菌や緑膿菌が形成するロイコジシンなどが該当し、化膿性炎症の原因となる。莢膜は肺炎球菌・肺炎桿菌・インフルエンザ菌・髄膜炎菌・百日咳菌など、主に飛沫で感染する細菌のほか、炭疽菌などBacillus属、ボツリヌス菌などClostridium属、ディフィシルなどグラム陽性桿菌にも多い。バイオフィルムは緑膿菌のほか、ミュータンス菌など粘膜表面で流されず付着するために発達させている。鞭毛は逆に移動するため。',
         },
         {
           detailInfo: '',

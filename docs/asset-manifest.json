@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.c1bcfcda.js",
+    "main.js": "/anywhere-microbiology/static/js/main.3b215f0d.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/allBacteriaGram.png": "/anywhere-microbiology/static/media/allBacteriaGram.3bb2f0186151b1e9a70b.png",
@@ -124,6 +124,7 @@
     "static/media/betaLactamaseCounterexample.png": "/anywhere-microbiology/static/media/betaLactamaseCounterexample.69d4db960dd7aa94eb7a.png",
     "static/media/tuberculosisTreatment.png": "/anywhere-microbiology/static/media/tuberculosisTreatment.c556af938ba7739b53d6.png",
     "static/media/criticalTool.png": "/anywhere-microbiology/static/media/criticalTool.924462a58e895a10d228.png",
+    "static/media/GramPositiveProtection.png": "/anywhere-microbiology/static/media/GramPositiveProtection.1918d7fc85b6e0fed1e5.png",
     "static/media/metalloLactamase.png": "/anywhere-microbiology/static/media/metalloLactamase.d0fc567c46a49cfe8fdf.png",
     "static/media/EIEC.png": "/anywhere-microbiology/static/media/EIEC.d98b0053dfe5f0b26fcd.png",
     "static/media/experimentCulture.png": "/anywhere-microbiology/static/media/experimentCulture.27945db68cae92c50a5f.png",
@@ -148,10 +149,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.c1bcfcda.js.map": "/anywhere-microbiology/static/js/main.c1bcfcda.js.map"
+    "main.3b215f0d.js.map": "/anywhere-microbiology/static/js/main.3b215f0d.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.c1bcfcda.js"
+    "static/js/main.3b215f0d.js"
   ]
 }
