@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.94dcad1d.js",
+    "main.js": "/anywhere-microbiology/static/js/main.be89a0a3.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/allBacteriaGram.png": "/anywhere-microbiology/static/media/allBacteriaGram.3bb2f0186151b1e9a70b.png",
     "static/media/question202202.png": "/anywhere-microbiology/static/media/question202202.1af22f3c70207fab3a7c.png",
+    "static/media/GenusActinomyces2.png": "/anywhere-microbiology/static/media/GenusActinomyces2.8ba1c92cf708969df747.png",
     "static/media/tuberculosis.png": "/anywhere-microbiology/static/media/tuberculosis.6b0c51573575c2a7dbaf.png",
     "static/media/Rubella.png": "/anywhere-microbiology/static/media/Rubella.33c2307a6b58676c4303.png",
     "static/media/SAPathogenicity.png": "/anywhere-microbiology/static/media/SAPathogenicity.e0ae7f47d5752a97c338.png",
@@ -27,7 +28,9 @@
     "static/media/MRSALA.png": "/anywhere-microbiology/static/media/MRSALA.b0ed2cfd09a04833e6b8.png",
     "static/media/liveVaccine.png": "/anywhere-microbiology/static/media/liveVaccine.ec83c01d93022751ecd9.png",
     "static/media/Leptospira.png": "/anywhere-microbiology/static/media/Leptospira.76bafddf1fc774f2ba63.png",
+    "static/media/GenusActinomyces.png": "/anywhere-microbiology/static/media/GenusActinomyces.0731ecbda1de42934000.png",
     "static/media/enterotoxin.png": "/anywhere-microbiology/static/media/enterotoxin.bcf75275bfaa8499c265.png",
+    "static/media/GenusNocardia.png": "/anywhere-microbiology/static/media/GenusNocardia.569f95f364f743aacb61.png",
     "static/media/poliovirus.png": "/anywhere-microbiology/static/media/poliovirus.d6cfe0f288664b97bbb3.png",
     "static/media/Legionella.png": "/anywhere-microbiology/static/media/Legionella.331946e762bf52784044.png",
     "static/media/smallpox.png": "/anywhere-microbiology/static/media/smallpox.305dfabda28c6d584643.png",
@@ -149,10 +152,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.94dcad1d.js.map": "/anywhere-microbiology/static/js/main.94dcad1d.js.map"
+    "main.be89a0a3.js.map": "/anywhere-microbiology/static/js/main.be89a0a3.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.94dcad1d.js"
+    "static/js/main.be89a0a3.js"
   ]
 }
