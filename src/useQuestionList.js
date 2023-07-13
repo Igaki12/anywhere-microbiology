@@ -60,6 +60,8 @@ import ChlamydiaTrachomatis from './img/answer/ChlamydiaTrachomatis.png';
 import GenusNocardia from './img/answer/GenusNocardia.png';
 import GenusActinomyces2 from './img/answer/GenusActinomyces2.png';
 import GenusActinomyces from './img/answer/GenusActinomyces.png';
+import StreptococcusOral from './img/answer/StreptococcusOral.png';
+import StreptococcusEndocarditis from './img/answer/StreptococcusEndocarditis.png';
 
 import Rubella from './img/answer/Rubella.png';
 import RSV from './img/answer/RSV.png';
@@ -986,7 +988,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '下記のうち、正しいのはどれか（複数選択可）',
           choices: ["乳酸菌の中にはデーデルライン桿菌という膣の自浄作用を示す菌がいる", "う蝕の原因菌はミティス菌群である", "歯科治療により一過性の菌血症が起こりやすくなる", "腸内細菌叢の多様性は健康維持に関与している", "ビフィズス菌は酸素があっても生育できる"],
-          answerImg: [Lactobacillus, DoderleinBacillus],
+          answerImg: [Lactobacillus, DoderleinBacillus, StreptococcusOral, StreptococcusEndocarditis],
           answer: '1,3,4が正しい',
           commentary: 'L.acidophilus、L.casei、ビフィズス菌などのデーデルライン桿菌は膣で多量の乳酸産生を行うことで膣内のpHを低下させ、病原細菌の侵入や定着を阻害する。う触（齲触/虫歯）の原因菌として、口腔連鎖球菌のミュータンス菌群が挙げられる。ミティス菌群は口腔連鎖球菌であるが細菌性心内膜炎に関与する。歯科治療を行うとこれらの口腔連鎖球菌が血管へ侵入しやすくなり、一過性の菌血症が起こる場合がある。乳酸菌は糖の発酵により乳酸を生成する通性嫌気性で、ビフィズス菌は糖の分解により酢酸と乳酸を生成する偏性嫌気性である。',
         },

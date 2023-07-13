@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.0b8d4e01.js",
+    "main.js": "/anywhere-microbiology/static/js/main.3a232431.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/allBacteriaGram.png": "/anywhere-microbiology/static/media/allBacteriaGram.3bb2f0186151b1e9a70b.png",
@@ -44,8 +44,10 @@
     "static/media/betaDGlucan13.png": "/anywhere-microbiology/static/media/betaDGlucan13.e3d95a5482be22c34b5e.png",
     "static/media/aeruginosa.png": "/anywhere-microbiology/static/media/aeruginosa.d01528a976eca97de396.png",
     "static/media/plasmidResistance.png": "/anywhere-microbiology/static/media/plasmidResistance.71d8b6b2d74c588ab575.png",
+    "static/media/StreptococcusOral.png": "/anywhere-microbiology/static/media/StreptococcusOral.efa126d8c9e27c8f8088.png",
     "static/media/fangusVariety.png": "/anywhere-microbiology/static/media/fangusVariety.947edc8f0be683599a2a.png",
     "static/media/pallidumTreponema.png": "/anywhere-microbiology/static/media/pallidumTreponema.0f2acd8c2456a563957f.png",
+    "static/media/StreptococcusEndocarditis.png": "/anywhere-microbiology/static/media/StreptococcusEndocarditis.b5cc317933540b913fab.png",
     "static/media/antibiogram.png": "/anywhere-microbiology/static/media/antibiogram.92c43cb666a12d2a9234.png",
     "static/media/LegionellaPathogenicity.png": "/anywhere-microbiology/static/media/LegionellaPathogenicity.28a26e63c260fe79a504.png",
     "static/media/rotavirusNorovirus.png": "/anywhere-microbiology/static/media/rotavirusNorovirus.efbd44f77595bbd06365.png",
@@ -156,10 +158,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.0b8d4e01.js.map": "/anywhere-microbiology/static/js/main.0b8d4e01.js.map"
+    "main.3a232431.js.map": "/anywhere-microbiology/static/js/main.3a232431.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.0b8d4e01.js"
+    "static/js/main.3a232431.js"
   ]
 }
