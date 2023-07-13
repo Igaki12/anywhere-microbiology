@@ -101,6 +101,9 @@ import fangusVariety from './img/answer/fangusVariety.png';
 import fangusStructure from './img/answer/fangusStructure.png';
 import experimentCulture from './img/answer/experimentCulture.png';
 import betaDGlucanFalsePositive from './img/answer/betaDGlucanFalsePositive.png';
+import diphtheriaeDiagnosis from './img/answer/diphtheriaeDiagnosis.png';
+import diphtheriaeColony from './img/answer/diphtheriaeColony.png';
+
 import betaDGlucan13 from './img/answer/betaDGlucan13.png';
 import antigenDrift from './img/answer/antigenDrift.png';
 import antiFungal from './img/answer/antiFungal.png';
@@ -485,8 +488,8 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '細菌について誤っているものは次のうちどれか（複数選択可）',
           choices: ["DNAに含まれる塩基はグアニン・アデニン・シトシン・チミンである", "プラスミドは細胞内で独立して存在・増殖できる", "染色体は核膜内にある", "細胞内で増殖したファージは成熟すると、溶菌酵素により菌体を壊して放出される", "プロモーターはリプレッサーと結合することで、構造遺伝子群の発現を抑制する"],
-          answerImg: [mitochondriaNucleus, bacteriophage],
-          answer: '3が誤り...細菌は核膜なし',
+          answerImg: [mitochondriaNucleus, bacteriophage, repressor],
+          answer: '3,5が誤り...細菌は核膜なし/リプレッサーはオペレーターと結合する',
           commentary: 'プラスミドはゲノムDNAとは独立して存在・複製でき、細菌の生存にとって必須ではないDNA分子であるが、毒素産生や薬剤耐性に関与しておりプラスミドを介した耐性遺伝子の拡散（接合伝達）が問題となっている。遺伝子の導入はファージによっても起こっていて（形質導入）、細胞内で増殖したファージが成熟し、溶菌酵素により菌体を壊して放出される。リプレッサーはオペレーター部位に結合して構造遺伝子群の発現を抑制していて、プロモーターはオペレーターを含み転写に関与する。',
         },
         {
@@ -953,7 +956,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'ジフテリアについて間違っているのはどれか、一つ答えよ。',
           choices: ["扁桃・咽頭部に偽膜が形成され、鼻腔・喉頭・気管にまで移行することがある", "ナイセル染色により異染小体が黒い穎粒として観察できる", "できるだけ速やかに血清療法による治療を行う", "予防としてはワクチン接種が有効である", "二類感染症に属するため、ジフテリア毒素を産生していない場合も届出が必要である"],
-          answerImg: [diphtheriae],
+          answerImg: [diphtheriae, diphtheriaeColony, diphtheriaeDiagnosis],
           answer: '5が誤り...毒素を産生していない場合は必要ない',
           commentary: 'ジフテリア菌が産生するジフテリア毒素による２類感染症。扁桃～咽頭周辺に白色～灰白色の偽膜が形成される症状が特徴的。進行すると気道や喉頭にも発展し（喉頭ジフテリア）、呼吸困難をきたす。検査はジフテリア患者の咽頭粘膜擦過物から血液寒天培地などにより行われ、ナイセル染色で異染小体が特徴的。治療はジフテリア毒素に対する血清による血清療法をできるだけ早くに行う。ジフテリア＋百日咳＋破傷風に対するDPT三種混合ワクチンは定期接種の対象。ジフテリア毒素（外毒素の細胞毒：タンパク合成阻害）を産生しないジフテリア菌に病原性はなく、届け出は必要ない',
         },

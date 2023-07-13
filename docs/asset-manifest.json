@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.be89a0a3.js",
+    "main.js": "/anywhere-microbiology/static/js/main.00386b1a.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/allBacteriaGram.png": "/anywhere-microbiology/static/media/allBacteriaGram.3bb2f0186151b1e9a70b.png",
     "static/media/question202202.png": "/anywhere-microbiology/static/media/question202202.1af22f3c70207fab3a7c.png",
     "static/media/GenusActinomyces2.png": "/anywhere-microbiology/static/media/GenusActinomyces2.8ba1c92cf708969df747.png",
+    "static/media/diphtheriaeColony.png": "/anywhere-microbiology/static/media/diphtheriaeColony.30ae943680726451acf8.png",
     "static/media/tuberculosis.png": "/anywhere-microbiology/static/media/tuberculosis.6b0c51573575c2a7dbaf.png",
     "static/media/Rubella.png": "/anywhere-microbiology/static/media/Rubella.33c2307a6b58676c4303.png",
     "static/media/SAPathogenicity.png": "/anywhere-microbiology/static/media/SAPathogenicity.e0ae7f47d5752a97c338.png",
@@ -61,6 +62,7 @@
     "static/media/Parvovirus.png": "/anywhere-microbiology/static/media/Parvovirus.27f70f879a094414f0c9.png",
     "static/media/antibiotics.png": "/anywhere-microbiology/static/media/antibiotics.f651419b5420631958e6.png",
     "static/media/norovirus.png": "/anywhere-microbiology/static/media/norovirus.d57fc35f72b19a2c27ad.png",
+    "static/media/diphtheriaeDiagnosis.png": "/anywhere-microbiology/static/media/diphtheriaeDiagnosis.410692a77bc148a56161.png",
     "static/media/facultativeAnaerobic.png": "/anywhere-microbiology/static/media/facultativeAnaerobic.f72c3ba69767187ac687.png",
     "static/media/EHEC.png": "/anywhere-microbiology/static/media/EHEC.d085beda2b89b831417b.png",
     "static/media/DoderleinBacillus.png": "/anywhere-microbiology/static/media/DoderleinBacillus.7ffddcb49c3b1f442877.png",
@@ -152,10 +154,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.be89a0a3.js.map": "/anywhere-microbiology/static/js/main.be89a0a3.js.map"
+    "main.00386b1a.js.map": "/anywhere-microbiology/static/js/main.00386b1a.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.be89a0a3.js"
+    "static/js/main.00386b1a.js"
   ]
 }
