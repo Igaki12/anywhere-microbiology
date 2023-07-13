@@ -62,6 +62,7 @@ import GenusActinomyces2 from './img/answer/GenusActinomyces2.png';
 import GenusActinomyces from './img/answer/GenusActinomyces.png';
 import StreptococcusOral from './img/answer/StreptococcusOral.png';
 import StreptococcusEndocarditis from './img/answer/StreptococcusEndocarditis.png';
+import influenzaHaemophilusCheck from './img/answer/influenzaHaemophilusCheck.png';
 
 import Rubella from './img/answer/Rubella.png';
 import RSV from './img/answer/RSV.png';
@@ -1141,9 +1142,9 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: 'インフルエンザ菌について正しいのはどれか（複数選択可）',
           choices: ["グラム陽性菌である", "血液寒天培地に発育できる", "無莢膜株と莢膜株があり、莢膜株は抗原性からa~fに分類できる", "全身感染症を起こしやすいのはb型菌(Hib)であり、近年、Hibワクチンが定期接種となった", "インフルエンザ菌による急性中耳炎や急性副鼻腔炎は、無莢膜株によるものが多い"],
-          answerImg: [influenzaHaemophilus],
-          answer: '3,4,5が正しい',
-          commentary: 'インフルエンザ菌はインフルエンザ（ウイルス感染症）の原因として間違われていたグラム陰性短桿菌。インフルエンザのように気道に感染し喀痰から検出されるが、常在菌でほとんど病原性はもっていない。チョコレート寒天培地によって培養されるのが特徴的。a~fの血清型は莢膜をもち、全身感染症を起こすb型に対してはHibワクチンが著効。生後2か月から計４回定期接種が行われる。　一方で敗血症を起こさない無莢膜型にはHibワクチンはほとんど効果が無い。',
+          answerImg: [influenzaHaemophilus,influenzaHaemophilusCheck],
+          answer: '2,3,4,5が正しい',
+          commentary: 'インフルエンザ菌はインフルエンザ（ウイルス感染症）の原因として間違われていたグラム陰性短桿菌。インフルエンザのように気道に感染し喀痰から検出されるが、常在菌でほとんど病原性はもっていない。インフルエンザ菌はチョコレート寒天培地によって培養されるのが特徴的であるが、インフルエンザ菌の判定には羊・馬などの血液寒天培地を組み合わせたヘモフィルス分画培地が利用される。インフルエンザ菌はヒツジ血液寒天培地には発育しないが、ウサギ・ウマ血液寒天培地には発育する。a~fの血清型は莢膜をもち、全身感染症を起こすb型に対してはHibワクチンが著効。生後2か月から計４回定期接種が行われる。　一方で敗血症を起こさない無莢膜型にはHibワクチンはほとんど効果が無い。',
         },
         {
           detailInfo: '',

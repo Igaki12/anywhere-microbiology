@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.3a232431.js",
+    "main.js": "/anywhere-microbiology/static/js/main.b669f668.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/allBacteriaGram.png": "/anywhere-microbiology/static/media/allBacteriaGram.3bb2f0186151b1e9a70b.png",
@@ -15,6 +15,7 @@
     "static/media/Lactobacillus.png": "/anywhere-microbiology/static/media/Lactobacillus.be1e89c5e5bb75e213a7.png",
     "static/media/Measles.png": "/anywhere-microbiology/static/media/Measles.d05ff11da93c21cb5f0a.png",
     "static/media/Acinetobacter.png": "/anywhere-microbiology/static/media/Acinetobacter.cd352ad0a1ee05da69b0.png",
+    "static/media/influenzaHaemophilusCheck.png": "/anywhere-microbiology/static/media/influenzaHaemophilusCheck.f5e31cb959cc25e01c85.png",
     "static/media/infectiousLaw.png": "/anywhere-microbiology/static/media/infectiousLaw.4a6fc4e534c308edd616.png",
     "static/media/influenzaVirusA.png": "/anywhere-microbiology/static/media/influenzaVirusA.8af7dafd41ea6271c8ae.png",
     "static/media/anthracisBacillus.png": "/anywhere-microbiology/static/media/anthracisBacillus.40b49f585190a8a0604a.png",
@@ -158,10 +159,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.3a232431.js.map": "/anywhere-microbiology/static/js/main.3a232431.js.map"
+    "main.b669f668.js.map": "/anywhere-microbiology/static/js/main.b669f668.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.3a232431.js"
+    "static/js/main.b669f668.js"
   ]
 }
