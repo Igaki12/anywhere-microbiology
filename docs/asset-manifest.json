@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-microbiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-microbiology/static/js/main.29777c15.js",
+    "main.js": "/anywhere-microbiology/static/js/main.c1bcfcda.js",
     "static/media/herpesVirus67.png": "/anywhere-microbiology/static/media/herpesVirus67.5009b43502cd6e6402b0.png",
     "static/media/question202201.png": "/anywhere-microbiology/static/media/question202201.173842c1047bf0d7ddcd.png",
     "static/media/allBacteriaGram.png": "/anywhere-microbiology/static/media/allBacteriaGram.3bb2f0186151b1e9a70b.png",
@@ -71,6 +71,7 @@
     "static/media/mask.png": "/anywhere-microbiology/static/media/mask.844ed0957113447235b0.png",
     "static/media/MRSA.png": "/anywhere-microbiology/static/media/MRSA.13470a1ee9b54f63726a.png",
     "static/media/SFTS.png": "/anywhere-microbiology/static/media/SFTS.a72edd77b1e32c62efe4.png",
+    "static/media/TDM.png": "/anywhere-microbiology/static/media/TDM.f14034433e08537feb97.png",
     "static/media/virusVariety.png": "/anywhere-microbiology/static/media/virusVariety.0377fb9584b1f9dbaca5.png",
     "static/media/probiotics.png": "/anywhere-microbiology/static/media/probiotics.77141c437c7c0f8d9bf4.png",
     "static/media/prebiotics.png": "/anywhere-microbiology/static/media/prebiotics.21c1ed64b16008feecc6.png",
@@ -111,7 +112,6 @@
     "static/media/Shiga.png": "/anywhere-microbiology/static/media/Shiga.aec948eb110fbe5d0cd1.png",
     "static/media/lepraeMycobacterium.png": "/anywhere-microbiology/static/media/lepraeMycobacterium.c47c96aed4a3b6e9cb5a.png",
     "static/media/disinfection.png": "/anywhere-microbiology/static/media/disinfection.85c535873e5de1b415c6.png",
-    "static/media/TDM.png": "/anywhere-microbiology/static/media/TDM.93ed00643239388272cf.png",
     "static/media/handWashing.png": "/anywhere-microbiology/static/media/handWashing.f27419e8fc01e7794694.png",
     "static/media/empiricTherapy.png": "/anywhere-microbiology/static/media/empiricTherapy.32d2a28963e052094f15.png",
     "static/media/bloodCulture.png": "/anywhere-microbiology/static/media/bloodCulture.1d3fc669f9fec2f45252.png",
@@ -148,10 +148,10 @@
     "static/media/Papilloma.png": "/anywhere-microbiology/static/media/Papilloma.7c307786bc4907f190a5.png",
     "index.html": "/anywhere-microbiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-microbiology/static/css/main.6180b9dc.css.map",
-    "main.29777c15.js.map": "/anywhere-microbiology/static/js/main.29777c15.js.map"
+    "main.c1bcfcda.js.map": "/anywhere-microbiology/static/js/main.c1bcfcda.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.29777c15.js"
+    "static/js/main.c1bcfcda.js"
   ]
 }
